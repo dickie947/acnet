@@ -1,0 +1,269 @@
+{
+ "f1": {
+  "last": [
+   "MEXICO CITY GRAND PRIX",
+   "01 Nov 2026",
+   "Autodromo Hermanos Rodriguez"
+  ],
+  "next": [
+   "SAO PAULO GRAND PRIX",
+   "08 Nov 2026",
+   "Interlagos, Brazil"
+  ],
+  "podium": [
+   "VERSTAPPEN (RED BULL)",
+   "HAMILTON (FERRARI)",
+   "ANTONELLI (MERCEDES)"
+  ],
+  "podiumLabel": "LAST RACE PODIUM",
+  "source": "ESPN / FORMULAONEHISTORY",
+  "table": [
+   [
+    "ANTONELLI",
+    "365"
+   ],
+   [
+    "RUSSELL",
+    "242"
+   ],
+   [
+    "HAMILTON",
+    "241"
+   ],
+   [
+    "VERSTAPPEN",
+    "236"
+   ],
+   [
+    "LECLERC",
+    "233"
+   ],
+   [
+    "NORRIS",
+    "211"
+   ],
+   [
+    "PIASTRI",
+    "144"
+   ],
+   [
+    "HADJAR",
+    "105"
+   ],
+   [
+    "LAWSON",
+    "77"
+   ],
+   [
+    "GASLY",
+    "42"
+   ]
+  ],
+  "tableLabel": "DRIVERS CHAMPIONSHIP",
+  "updated": "2026-11-02T17:35:00Z"
+ },
+ "wec": {
+  "last": [
+   "6 HOURS OF BARCELONA",
+   "18 Oct 2026",
+   "Barcelona, Spain"
+  ],
+  "next": [
+   "6 HOURS OF MONZA (FINALE)",
+   "06-08 Nov 2026",
+   "Monza, Italy"
+  ],
+  "podium": [
+   "#8 TOYOTA",
+   "#7 TOYOTA",
+   "#50 FERRARI"
+  ],
+  "podiumLabel": "LAST RACE PODIUM",
+  "source": "PIT DEBRIEF / RACINGNEWS365",
+  "table": [
+   [
+    "TOYOTA",
+    "169"
+   ],
+   [
+    "BMW",
+    "146"
+   ],
+   [
+    "FERRARI",
+    "115"
+   ],
+   [
+    "ALPINE",
+    "96"
+   ],
+   [
+    "CADILLAC",
+    "96"
+   ],
+   [
+    "ASTON MARTIN",
+    "54"
+   ],
+   [
+    "PEUGEOT",
+    "24"
+   ],
+   [
+    "GENESIS",
+    "12"
+   ]
+  ],
+  "tableLabel": "MANUFACTURERS (AFTER R6 FUJI)",
+  "updated": "2026-11-02T17:35:00Z"
+ },
+ "ac": {
+  "last": [
+   "NAPLES PRELIM REGATTA FINAL",
+   "27 Sep 2026",
+   "Naples, Italy"
+  ],
+  "lastLabel": "LAST EVENT",
+  "next": [
+   "LOUIS VUITTON CUP STARTS",
+   "22 May 2027",
+   "Naples, Italy"
+  ],
+  "nextLabel": "NEXT EVENT",
+  "note": "No series table until the Louis Vuitton Cup. Preliminary regatta winners: Cagliari (May) Luna Rossa, Naples (Sep) Luna Rossa. Match v Team NZ from 10 Jul 2027.",
+  "podium": [
+   "LUNA ROSSA (ITA)",
+   "EMIRATES TEAM NZ",
+   "LA ROCHE-POSAY (FRA)"
+  ],
+  "podiumLabel": "NAPLES REGATTA",
+  "score": "LUNA ROSSA BEAT ETNZ",
+  "source": "AMERICA'S CUP PRESS / THE STAR",
+  "table": [],
+  "tableLabel": "CURRENT STANDINGS",
+  "updated": "2026-11-02T17:35:00Z"
+ },
+ "lfc": {
+  "last": [
+   "ARSENAL",
+   "01 Nov 2026",
+   "Anfield \u00b7 HOME"
+  ],
+  "lastLabel": "LAST MATCH",
+  "next": [
+   "CRYSTAL PALACE",
+   "08 Nov 2026 14:00",
+   "Selhurst Park \u00b7 AWAY"
+  ],
+  "nextLabel": "NEXT MATCH",
+  "podium": null,
+  "podiumLabel": null,
+  "score": "FT  LFC 0 - 1 ARS",
+  "source": "SPORTRADAR",
+  "table": [
+   [
+    "ARSENAL",
+    "9",
+    "24"
+   ],
+   [
+    "MANCHESTER CITY",
+    "9",
+    "21"
+   ],
+   [
+    "BRIGHTON & HOVE ALBION",
+    "9",
+    "19"
+   ],
+   [
+    "CHELSEA",
+    "9",
+    "16"
+   ],
+   [
+    "LIVERPOOL",
+    "9",
+    "15",
+    "hl"
+   ],
+   [
+    "BRENTFORD",
+    "9",
+    "14"
+   ],
+   [
+    "AFC BOURNEMOUTH",
+    "9",
+    "12"
+   ],
+   [
+    "TOTTENHAM HOTSPUR",
+    "9",
+    "12"
+   ],
+   [
+    "ASTON VILLA",
+    "9",
+    "12"
+   ],
+   [
+    "HULL CITY",
+    "9",
+    "11"
+   ],
+   [
+    "LEEDS UNITED",
+    "9",
+    "11"
+   ],
+   [
+    "NEWCASTLE UNITED",
+    "8",
+    "11"
+   ],
+   [
+    "IPSWICH TOWN",
+    "9",
+    "11"
+   ],
+   [
+    "EVERTON",
+    "8",
+    "10"
+   ],
+   [
+    "FULHAM",
+    "9",
+    "9"
+   ],
+   [
+    "COVENTRY CITY",
+    "9",
+    "9"
+   ],
+   [
+    "MANCHESTER UNITED",
+    "9",
+    "7"
+   ],
+   [
+    "CRYSTAL PALACE",
+    "9",
+    "7"
+   ],
+   [
+    "NOTTINGHAM FOREST",
+    "9",
+    "6"
+   ],
+   [
+    "SUNDERLAND",
+    "9",
+    "5"
+   ]
+  ],
+  "tableLabel": "PREMIER LEAGUE  (PLD / PTS)",
+  "updated": "2026-11-02T17:35:00Z"
+ }
+}
