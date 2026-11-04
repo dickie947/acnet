@@ -1,12 +1,51 @@
 {
- "failed": [],
+ "failed": [
+  "sciencedaily (fetch)",
+  "bas.ac.uk",
+  "aria.org.uk",
+  "aerospacetestinginternational.com",
+  "uncrewed-systems.com",
+  "nasa.gov",
+  "esa.int",
+  "nature.com",
+  "ati.org.uk",
+  "turing.ac.uk"
+ ],
  "items": [
+  {
+   "d": "2026-11-03",
+   "f": "2026-11-04T06:40:34Z",
+   "s": "sciencedaily.com",
+   "t": "NASA’s Voyager 1 is about to reach a historic one-light-day milestone",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+  },
+  {
+   "d": "2026-11-03",
+   "f": "2026-11-04T06:40:34Z",
+   "s": "sciencedaily.com",
+   "t": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+  },
   {
    "d": "2026-11-02",
    "f": "2026-11-02T17:45:00Z",
    "s": "esa.int",
    "t": "CubeSat achieves challenging laser link to ground",
    "u": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/CubeSat_achieves_challenging_laser_link_to_ground"
+  },
+  {
+   "d": "2026-11-01",
+   "f": "2026-11-04T06:40:34Z",
+   "s": "sciencedaily.com",
+   "t": "Scientists just found a loophole that could let black holes split in two",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261101010525.htm"
+  },
+  {
+   "d": "2026-11-01",
+   "f": "2026-11-04T06:40:34Z",
+   "s": "sciencedaily.com",
+   "t": "NASA reveals a haunting skull hidden in Antarctica’s ice",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261101010538.htm"
   },
   {
    "d": "2026-10-30",
@@ -212,11 +251,11 @@
    "u": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm"
   },
   {
-   "t": "Operation Blue Skies takes flight at the Brussels Contrails Conference",
-   "u": "https://www.ati.org.uk/news-events/news/operation-blue-skies-at-the-brussels-contrails-conference/",
-   "s": "ati.org.uk",
    "d": "2026-10-21",
-   "f": "2026-11-03T07:45:25Z"
+   "f": "2026-11-03T07:45:25Z",
+   "s": "ati.org.uk",
+   "t": "Operation Blue Skies takes flight at the Brussels Contrails Conference",
+   "u": "https://www.ati.org.uk/news-events/news/operation-blue-skies-at-the-brussels-contrails-conference/"
   },
   {
    "d": "2026-10-19",
@@ -331,11 +370,11 @@
    "u": "https://www.nature.com/articles/s41526-026-00664-3"
   },
   {
-   "t": "New AI model will boost UK's ability to safeguard vital satellites",
-   "u": "https://www.turing.ac.uk/news/new-ai-model-will-boost-uks-ability-safeguard-vital-satellites",
-   "s": "turing.ac.uk",
    "d": "2026-10-09",
-   "f": "2026-11-03T09:48:42Z"
+   "f": "2026-11-03T09:48:42Z",
+   "s": "turing.ac.uk",
+   "t": "New AI model will boost UK's ability to safeguard vital satellites",
+   "u": "https://www.turing.ac.uk/news/new-ai-model-will-boost-uks-ability-safeguard-vital-satellites"
   },
   {
    "d": "2026-10-08",
@@ -415,26 +454,12 @@
    "u": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_supports_development_of_European_spacecraft_for_servicing_geostationary_satellites"
   },
   {
-   "t": "The Alan Turing Institute sets out practical agenda to tackle frontier AI risks",
-   "u": "https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks",
-   "s": "turing.ac.uk",
    "d": "2026-09-23",
-   "f": "2026-11-03T09:48:42Z"
-  },
-  {
-   "d": "2026-09-18",
-   "f": "2026-11-02T18:40:00Z",
-   "s": "nature.com",
-   "t": "The right inferior parietal lobule in spaceflight adaptation: a review of gravity-related processing mechanisms",
-   "u": "https://www.nature.com/articles/s41526-026-00656-3"
-  },
-  {
-   "d": "2026-09-17",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "ESA starts next phase of IRIS2 evolution through Low-LEO activities",
-   "u": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_starts_next_phase_of_IRIS2_evolution_through_Low-LEO_activities"
+   "f": "2026-11-03T09:48:42Z",
+   "s": "turing.ac.uk",
+   "t": "The Alan Turing Institute sets out practical agenda to tackle frontier AI risks",
+   "u": "https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks"
   }
  ],
- "updated": "2026-11-02T18:40:00Z"
+ "updated": "2026-11-04T06:40:34Z"
 }
