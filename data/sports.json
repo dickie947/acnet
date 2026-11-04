@@ -16,31 +16,31 @@
    "ANTONELLI (MERCEDES)"
   ],
   "podiumLabel": "LAST RACE PODIUM",
-  "source": "ESPN / FORMULAONEHISTORY",
+  "source": "ESPN / RACINGNEWS365",
   "table": [
    [
     "ANTONELLI",
-    "365"
-   ],
-   [
-    "RUSSELL",
-    "242"
-   ],
-   [
-    "HAMILTON",
-    "241"
+    "380"
    ],
    [
     "VERSTAPPEN",
-    "236"
+    "261"
+   ],
+   [
+    "HAMILTON",
+    "259"
+   ],
+   [
+    "RUSSELL",
+    "250"
    ],
    [
     "LECLERC",
-    "233"
+    "245"
    ],
    [
     "NORRIS",
-    "211"
+    "221"
    ],
    [
     "PIASTRI",
@@ -48,11 +48,11 @@
    ],
    [
     "HADJAR",
-    "105"
+    "107"
    ],
    [
     "LAWSON",
-    "77"
+    "83"
    ],
    [
     "GASLY",
@@ -60,7 +60,7 @@
    ]
   ],
   "tableLabel": "DRIVERS CHAMPIONSHIP",
-  "updated": "2026-11-02T17:35:00Z"
+  "updated": "2026-11-04T06:45:00Z"
  },
  "wec": {
   "last": [
@@ -79,31 +79,31 @@
    "#50 FERRARI"
   ],
   "podiumLabel": "LAST RACE PODIUM",
-  "source": "PIT DEBRIEF / RACINGNEWS365",
+  "source": "FIAWEC.COM / RACINGNEWS365",
   "table": [
    [
     "TOYOTA",
-    "169"
+    "212"
    ],
    [
     "BMW",
-    "146"
+    "154"
    ],
    [
     "FERRARI",
-    "115"
-   ],
-   [
-    "ALPINE",
-    "96"
+    "130"
    ],
    [
     "CADILLAC",
-    "96"
+    "118"
+   ],
+   [
+    "ALPINE",
+    "104"
    ],
    [
     "ASTON MARTIN",
-    "54"
+    "58"
    ],
    [
     "PEUGEOT",
@@ -111,11 +111,11 @@
    ],
    [
     "GENESIS",
-    "12"
+    "14"
    ]
   ],
-  "tableLabel": "MANUFACTURERS (AFTER R6 FUJI)",
-  "updated": "2026-11-02T17:35:00Z"
+  "tableLabel": "MANUFACTURERS (AFTER R7 BARCELONA)",
+  "updated": "2026-11-04T06:45:00Z"
  },
  "ac": {
   "last": [
@@ -159,7 +159,7 @@
   "podium": null,
   "podiumLabel": null,
   "score": "FT  LFC 0 - 1 ARS",
-  "source": "SPORTRADAR",
+  "source": "SKY SPORTS / LIVERPOOLFC.COM",
   "table": [
    [
     "ARSENAL",
@@ -193,6 +193,11 @@
     "14"
    ],
    [
+    "EVERTON",
+    "9",
+    "13"
+   ],
+   [
     "AFC BOURNEMOUTH",
     "9",
     "12"
@@ -219,18 +224,13 @@
    ],
    [
     "NEWCASTLE UNITED",
-    "8",
+    "9",
     "11"
    ],
    [
     "IPSWICH TOWN",
     "9",
     "11"
-   ],
-   [
-    "EVERTON",
-    "8",
-    "10"
    ],
    [
     "FULHAM",
@@ -264,6 +264,6 @@
    ]
   ],
   "tableLabel": "PREMIER LEAGUE  (PLD / PTS)",
-  "updated": "2026-11-02T17:35:00Z"
+  "updated": "2026-11-04T06:45:00Z"
  }
 }
