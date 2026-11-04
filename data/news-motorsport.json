@@ -1,6 +1,15 @@
 {
- "failed": [],
+ "failed": [
+  "bbc.co.uk"
+ ],
  "items": [
+  {
+   "t": "McLaren to introduce 2027 F1 front wing at Brazil GP",
+   "u": "https://www.motorsport.com/f1/news/mclaren-to-introduce-2027-f1-front-wing-at-brazil-gp/10871326/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-04T06:42:51Z"
+  },
   {
    "t": "How Mercedes can win the 2026 F1 constructors' championship at the Brazilian GP",
    "u": "https://www.motorsport.com/f1/news/how-mercedes-can-win-the-2026-f1-constructors-championship-at-the-brazilian-gp/10871090/",
@@ -37,5 +46,5 @@
    "u": "https://www.motorsport.com/f1/news/kimi-antonelli-becomes-youngest-world-champion-in-f1-history/10870717/"
   }
  ],
- "updated": "2026-11-03T07:11:00Z"
+ "updated": "2026-11-04T06:42:51Z"
 }
