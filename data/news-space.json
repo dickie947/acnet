@@ -1,6 +1,56 @@
 {
- "failed": [],
+ "failed": [
+  "nasa.gov",
+  "sciencedaily.com",
+  "esa.int (3 pages)",
+  "nasa.gov ISS news",
+  "space.com feed",
+  "spacenews.com",
+  "gov.uk UK Space Agency"
+ ],
  "items": [
+  {
+   "d": "2026-11-04",
+   "f": "2026-11-05T06:42:29Z",
+   "s": "esa.int",
+   "t": "Geological intuition for Mars",
+   "u": "https://blogs.esa.int/to-mars-and-back/2026/11/04/geological-intuition-for-mars/"
+  },
+  {
+   "d": "2026-11-04",
+   "f": "2026-11-05T06:42:29Z",
+   "s": "space.com",
+   "t": "The Taurid meteor shower peaks Nov.4-5 — and fireballs could steal the show",
+   "u": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show"
+  },
+  {
+   "d": "2026-11-02",
+   "f": "2026-11-03T07:11:00Z",
+   "s": "nasa.gov",
+   "t": "NASA’s Swift Observatory to Re-Enter Atmosphere",
+   "u": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+  },
+  {
+   "d": "2026-11-02",
+   "f": "2026-11-03T07:11:00Z",
+   "s": "nasa.gov",
+   "t": "NASA’s Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+   "u": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+  },
+  {
+   "d": "2026-11-02",
+   "f": "2026-11-03T07:11:00Z",
+   "s": "nasa.gov",
+   "t": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
+   "u": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
+  },
+  {
+   "d": "2026-11-02",
+   "f": "2026-11-03T07:11:00Z",
+   "s": "nasa.gov",
+   "t": "What's Up: November 2026 Skywatching Tips from NASA",
+   "u": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+  },
   {
    "d": "2026-11-02",
    "f": "2026-11-02T17:45:00Z",
@@ -14,34 +64,6 @@
    "s": "sciencedaily.com",
    "t": "NASA's Perseverance Mars Rover Breaks Historic Record After Traveling 28 Miles",
    "u": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm"
-  },
-  {
-   "t": "NASA\u2019s Swift Observatory to Re-Enter Atmosphere",
-   "u": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
-   "s": "nasa.gov",
-   "d": "2026-11-02",
-   "f": "2026-11-03T07:11:00Z"
-  },
-  {
-   "t": "NASA\u2019s Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
-   "u": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
-   "s": "nasa.gov",
-   "d": "2026-11-02",
-   "f": "2026-11-03T07:11:00Z"
-  },
-  {
-   "t": "NASA\u2019s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
-   "u": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
-   "s": "nasa.gov",
-   "d": "2026-11-02",
-   "f": "2026-11-03T07:11:00Z"
-  },
-  {
-   "t": "What's Up: November 2026 Skywatching Tips from NASA",
-   "u": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
-   "s": "nasa.gov",
-   "d": "2026-11-02",
-   "f": "2026-11-03T07:11:00Z"
   },
   {
    "d": "2026-11-01",
@@ -331,5 +353,5 @@
    "u": "https://www.nasa.gov/blogs/spacestation/2026/10/01/crew-13-members-enter-station-join-expedition-75/"
   }
  ],
- "updated": "2026-11-03T07:11:00Z"
+ "updated": "2026-11-05T06:42:29Z"
 }
