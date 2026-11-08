@@ -332,6 +332,13 @@
    "u": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/MetOp-SG-B1_weather_satellite_arrives_at_Europe_s_Spaceport"
   },
   {
+   "t": "Launch Preview: H3, Falcon 9, Electron, and others to launch during busy week",
+   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-102026/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-10-20",
+   "f": "2026-11-08T06:37:33Z"
+  },
+  {
    "d": "2026-10-19",
    "f": "2026-11-02T17:45:00Z",
    "s": "esa.int",
@@ -393,6 +400,13 @@
    "s": "esa.int",
    "t": "MMX from launch to Phobos",
    "u": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
+  },
+  {
+   "t": "Launch Preview: Falcon 9, ZhuQue-2E to launch during quiet week",
+   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-10-13",
+   "f": "2026-11-08T06:37:33Z"
   },
   {
    "d": "2026-10-12",
@@ -472,6 +486,13 @@
    "f": "2026-11-07T12:38:33Z"
   },
   {
+   "t": "Launch Preview: Crew-13 to head to ISS, Falcon Heavy mission for the NRO",
+   "u": "https://www.nasaspaceflight.com/2026/09/launch-preview-092926/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-09-29",
+   "f": "2026-11-08T06:37:33Z"
+  },
+  {
    "t": "Open Cosmos attends first Vaduz Space Dialogue to advance federated EU approach to space-based connectivity",
    "u": "https://www.ukspace.org/open-cosmos-attends-first-vaduz-space-dialogue-to-advance-federated-eu-approach-to-space-based-connectivity/",
    "s": "ukspace.org",
@@ -486,5 +507,5 @@
    "f": "2026-11-07T12:38:33Z"
   }
  ],
- "updated": "2026-11-05T06:42:29Z"
+ "updated": "2026-11-08T06:37:33Z"
 }
