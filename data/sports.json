@@ -159,16 +159,16 @@
   "podium": null,
   "podiumLabel": null,
   "score": "FT  LFC 0 - 1 ARS",
-  "source": "SKY SPORTS / LIVERPOOLFC.COM",
+  "source": "SKY SPORTS / LIVERPOOLFC.COM / BESOCCER",
   "table": [
    [
     "ARSENAL",
-    "9",
-    "24"
+    "10",
+    "27"
    ],
    [
     "MANCHESTER CITY",
-    "9",
+    "10",
     "21"
    ],
    [
@@ -179,6 +179,11 @@
    [
     "CHELSEA",
     "9",
+    "16"
+   ],
+   [
+    "EVERTON",
+    "10",
     "16"
    ],
    [
@@ -193,9 +198,9 @@
     "14"
    ],
    [
-    "EVERTON",
-    "9",
-    "13"
+    "LEEDS UNITED",
+    "10",
+    "14"
    ],
    [
     "AFC BOURNEMOUTH",
@@ -204,7 +209,12 @@
    ],
    [
     "TOTTENHAM HOTSPUR",
-    "9",
+    "10",
+    "12"
+   ],
+   [
+    "NEWCASTLE UNITED",
+    "10",
     "12"
    ],
    [
@@ -214,17 +224,7 @@
    ],
    [
     "HULL CITY",
-    "9",
-    "11"
-   ],
-   [
-    "LEEDS UNITED",
-    "9",
-    "11"
-   ],
-   [
-    "NEWCASTLE UNITED",
-    "9",
+    "10",
     "11"
    ],
    [
@@ -234,12 +234,17 @@
    ],
    [
     "FULHAM",
-    "9",
+    "10",
+    "10"
+   ],
+   [
+    "NOTTINGHAM FOREST",
+    "10",
     "9"
    ],
    [
     "COVENTRY CITY",
-    "9",
+    "10",
     "9"
    ],
    [
@@ -253,17 +258,12 @@
     "7"
    ],
    [
-    "NOTTINGHAM FOREST",
-    "9",
-    "6"
-   ],
-   [
     "SUNDERLAND",
     "9",
     "5"
    ]
   ],
   "tableLabel": "PREMIER LEAGUE  (PLD / PTS)",
-  "updated": "2026-11-04T06:45:00Z"
+  "updated": "2026-11-08T06:50:00Z"
  }
 }
