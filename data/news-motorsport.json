@@ -1,8 +1,69 @@
 {
- "failed": [
-  "bbc.co.uk"
- ],
+ "updated": "2026-11-09T06:36:42Z",
  "items": [
+  {
+   "t": "WEC Monza: Cadillac wins chaotic finale, #8 Toyota seals drivers’ title",
+   "u": "https://www.motorsport.com/wec/news/wec-monza-cadillac-wins-chaotic-finale-8-toyota-seals-drivers-title/10872984/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Winners and losers from F1's chaotic Brazilian Grand Prix",
+   "u": "https://www.motorsport.com/f1/news/winners-and-losers-from-f1s-chaotic-brazilian-grand-prix/10873189/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Mercedes crowned 2026 F1 constructors' champion at Brazilian GP",
+   "u": "https://www.motorsport.com/f1/news/mercedes-crowned-2026-f1-constructors-champion-at-brazilian-gp/10873044/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Kimi Antonelli: \"Weird\" spin and car instability cost F1 Brazilian GP win",
+   "u": "https://www.motorsport.com/f1/news/kimi-antonelli-weird-spin-and-car-instability-cost-f1-brazilian-gp-win/10873125/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Red Bull boss hails Max Verstappen's Brazil podium: \"He's beating the sim on a regular basis\"",
+   "u": "https://www.motorsport.com/f1/news/red-bull-boss-hails-max-verstappens-brazil-podium-hes-beating-the-sim-on-a-regular-basis/10873193/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Kimi Antonelli and Charles Leclerc summoned to stewards after F1 Brazilian GP",
+   "u": "https://www.motorsport.com/f1/news/kimi-antonelli-and-charles-leclerc-summoned-to-stewards-after-f1-brazilian-gp/10873093/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Five quick takeaways from Brazilian GP",
+   "u": "https://www.motorsport.com/f1/news/five-quick-takeaways-from-brazil-gp/10873014/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "McLaren’s 2027-spec front wing is making its F1 car more predictable",
+   "u": "https://www.motorsport.com/f1/news/mclarens-2027-spec-front-wing-is-making-its-f1-car-more-predictable/10872891/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
+  {
+   "t": "Lewis Hamilton set for new penalty, will start F1 Brazilian GP from back of grid",
+   "u": "https://www.motorsport.com/f1/news/lewis-hamilton-set-for-new-penalty-will-start-f1-brazilian-gp-from-back-of-grid/10872640/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-09T06:36:42Z"
+  },
   {
    "t": "WEC Monza: Antonio Fuoco takes pole for Ferrari",
    "u": "https://www.motorsport.com/wec/news/wec-monza-antonio-fuoco-takes-pole-for-ferrari/10872565/",
@@ -242,5 +303,7 @@
    "u": "https://motorsport.com/f1/news/mercedes-fined-for-george-russell-skipping-f1-mexico-gp-media-duties/10871040"
   }
  ],
- "updated": "2026-11-08T06:31:05Z"
+ "failed": [
+  "bbc.co.uk"
+ ]
 }
