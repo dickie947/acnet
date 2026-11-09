@@ -6,7 +6,9 @@
   "nasa.gov ISS news",
   "space.com feed",
   "spacenews.com",
-  "gov.uk UK Space Agency"
+  "gov.uk UK Space Agency",
+  "ukspace.org",
+  "adsadvance.co.uk"
  ],
  "items": [
   {
@@ -15,6 +17,20 @@
    "s": "adsadvance.co.uk",
    "d": "2026-11-05",
    "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-05",
+   "f": "2026-11-09T06:42:43Z"
+  },
+  {
+   "t": "NASA's Swift telescope falls to Earth after nearly 22 years in space",
+   "u": "https://sciencedaily.com/releases/2026/11/261105224545.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-05",
+   "f": "2026-11-09T06:42:43Z"
   },
   {
    "d": "2026-11-04",
@@ -507,5 +523,5 @@
    "f": "2026-11-07T12:38:33Z"
   }
  ],
- "updated": "2026-11-08T06:37:33Z"
+ "updated": "2026-11-09T06:42:43Z"
 }
