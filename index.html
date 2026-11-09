@@ -78,6 +78,12 @@ ol.feed{list-style:none;margin:0;padding:0}
 .empty{margin:8px 6px;color:var(--muted);font-size:14px}
 .note{margin-top:22px;padding:8px 10px;border:1px dashed var(--red);font-size:12px;color:var(--muted)}
 .note b{color:var(--red)}
+.sync{margin-top:8px;padding-top:8px;border-top:1px dashed var(--rule)}
+.sync button{font:inherit;color:var(--link);background:none;border:1px solid var(--rule);padding:2px 8px;cursor:pointer;margin-left:6px}
+.sync button:hover{background:var(--hover)}
+.sync input{font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--rule);padding:3px 6px;width:min(320px,100%);margin:6px 6px 0 0}
+.sync .err{color:var(--red)}
+.sync ol{margin:6px 0 0 18px;padding:0}
 
 /* sports screen */
 .screen{background:var(--crt-bg);color:var(--crt-fg);border:3px solid var(--blue);border-radius:6px;
@@ -148,6 +154,7 @@ ol.feed{list-style:none;margin:0;padding:0}
     <main>
       <div id="news"></div>
       <p class="note"><b>ACnet.</b> Headlines refresh daily and show the 15 newest unread per section. Opening a story hides it on this device. Sports and the ticker refresh daily.</p>
+      <div class="note sync" id="sync"></div>
     </main>
 
     <aside aria-label="Sports">
@@ -298,6 +305,7 @@ function persistRead(){
   pruneRead();
   try{localStorage.setItem("acnet-read",JSON.stringify(readMap))}catch(e){}
   if(readRef){ clearTimeout(saveTimer); saveTimer=setTimeout(flushRead,600) }
+  if(SYNC.on()) SYNC.later();
 }
 function markRead(k){
   if(!k||readMap[k]) return;
@@ -315,6 +323,102 @@ function startNews(){
   GROUPS.forEach(function(g){ getJSON("data/news-"+g[0]+".json").then(function(d){NEWS[g[0]]=d;renderNews()}).catch(function(){}) });
 }
 renderNews();
+
+// ---------- SYNC: read list shared between devices through one private GitHub Gist ----------
+var SYNC=(function(){
+  var KEY="acnet-sync", DESC="ACnet read state", FILE="acnet-read.json", API="https://api.github.com";
+  var cfg=null, busy=false, again=false, timer=null, status="", err="", last="", open=false;
+  try{cfg=JSON.parse(localStorage.getItem(KEY)||"null")}catch(e){}
+  function save(){try{if(cfg)localStorage.setItem(KEY,JSON.stringify(cfg));else localStorage.removeItem(KEY)}catch(e){}}
+  function hdr(){return {"Authorization":"Bearer "+cfg.t,"Accept":"application/vnd.github+json"}}
+  function api(path,opt){
+    opt=opt||{}; opt.headers=Object.assign(hdr(),opt.headers||{}); opt.cache="no-store";
+    return fetch(API+path,opt).then(function(r){
+      if(r.status===401||r.status===403) throw new Error("TOKEN REJECTED");
+      if(!r.ok) throw new Error("HTTP "+r.status);
+      return r.json();
+    });
+  }
+  function findGist(){
+    return api("/gists?per_page=100").then(function(list){
+      for(var i=0;i<list.length;i++){ if(list[i].description===DESC&&list[i].files&&list[i].files[FILE]) return list[i].id }
+      return null;
+    });
+  }
+  function ensureGist(){
+    if(cfg.g) return Promise.resolve(cfg.g);
+    return findGist().then(function(id){
+      if(id){cfg.g=id;save();return id}
+      var f={}; f[FILE]={content:JSON.stringify({m:{}})};
+      return api("/gists",{method:"POST",body:JSON.stringify({description:DESC,public:false,files:f})}).then(function(g){cfg.g=g.id;save();return g.id});
+    });
+  }
+  function readRemote(id){
+    return api("/gists/"+id).then(function(g){
+      var f=g.files&&g.files[FILE]; if(!f) return {};
+      var p=f.truncated?fetch(f.raw_url,{cache:"no-store"}).then(function(r){return r.text()}):Promise.resolve(f.content);
+      return p.then(function(t){var d={};try{d=JSON.parse(t)}catch(e){} return (d&&d.m)||{}});
+    });
+  }
+  function run(){
+    if(!cfg) return Promise.resolve();
+    if(busy){again=true;return Promise.resolve()}
+    busy=true; status="SYNCING"; err=""; draw();
+    return ensureGist().then(function(id){
+      return readRemote(id).then(function(remote){
+        var merged={},k,changedLocal=false,changedRemote=false;
+        for(k in readMap) merged[k]=readMap[k];
+        for(k in remote){ if(!merged[k]||remote[k]>merged[k]) merged[k]=remote[k] }
+        for(k in merged){ if(readMap[k]!==merged[k]) changedLocal=true; if(remote[k]!==merged[k]) changedRemote=true }
+        readMap=merged; pruneRead();
+        try{localStorage.setItem("acnet-read",JSON.stringify(readMap))}catch(e){}
+        if(changedLocal) renderNews();
+        if(!changedRemote) return;
+        return api("/gists/"+id,{method:"PATCH",body:JSON.stringify({files:(function(){var o={};o[FILE]={content:JSON.stringify({m:readMap,updated:new Date().toISOString()})};return o})()})});
+      });
+    }).then(function(){
+      var d=new Date(); last=("0"+d.getHours()).slice(-2)+":"+("0"+d.getMinutes()).slice(-2); status="OK";
+    }).catch(function(e){ status="ERROR"; err=(e&&e.message)||"FAILED"; })
+    .then(function(){ busy=false; draw(); if(again){again=false; later()} });
+  }
+  function later(){clearTimeout(timer); timer=setTimeout(run,2500)}
+  function connect(tok){
+    tok=(tok||"").replace(/\s+/g,"");
+    if(!tok){err="PASTE A TOKEN";draw();return}
+    cfg={t:tok,g:null}; save(); open=false; run();
+  }
+  function off(){cfg=null;save();status="";err="";last="";draw()}
+  function draw(){
+    var el=document.getElementById("sync"); if(!el) return;
+    var h="";
+    if(cfg){
+      h='<b>SYNC</b> '+(status==="ERROR"?'<span class="err">error: '+err+'</span>':status==="SYNCING"?'syncing…':'on'+(last?' · synced '+last:''))+
+        ' <button type="button" data-a="now">Sync now</button><button type="button" data-a="off">Turn off</button>';
+    }else{
+      h='<b>SYNC</b> off <button type="button" data-a="setup">Set up</button>';
+      if(open){
+        h+='<ol><li>On GitHub: Settings, Developer settings, Personal access tokens, Tokens (classic), Generate new token (classic).</li>'+
+           '<li>Tick only <b>gist</b>, set no expiry, generate, copy the token.</li>'+
+           '<li>Paste it here (use the same token on every device):</li></ol>'+
+           '<input id="synctok" type="password" autocomplete="off" placeholder="ghp_..."><button type="button" data-a="go">Connect</button>'+
+           (err?' <span class="err">'+err+'</span>':'');
+      }
+    }
+    el.innerHTML=h;
+  }
+  document.addEventListener("click",function(e){
+    var b=e.target.closest&&e.target.closest("#sync button"); if(!b) return;
+    var a=b.getAttribute("data-a");
+    if(a==="setup"){open=true;err="";draw()}
+    else if(a==="go"){connect((document.getElementById("synctok")||{}).value)}
+    else if(a==="now"){run()}
+    else if(a==="off"){off()}
+  });
+  document.addEventListener("visibilitychange",function(){ if(!document.hidden&&cfg) run() });
+  setInterval(function(){ if(cfg&&!document.hidden) run() },5*60*1000);
+  return {on:function(){return !!cfg},later:later,run:run,draw:draw};
+})();
+SYNC.draw(); if(SYNC.on()) SYNC.run();
 
 // sports rotator
 var cur=0, paused=false, DWELL=9000, t0=Date.now(), timer=null;
