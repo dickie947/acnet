@@ -1,58 +1,58 @@
 {
  "f1": {
   "last": [
-   "MEXICO CITY GRAND PRIX",
-   "01 Nov 2026",
-   "Autodromo Hermanos Rodriguez"
-  ],
-  "next": [
    "SAO PAULO GRAND PRIX",
    "08 Nov 2026",
    "Interlagos, Brazil"
   ],
+  "next": [
+   "LAS VEGAS GRAND PRIX",
+   "22 Nov 2026",
+   "Las Vegas, USA"
+  ],
   "podium": [
+   "NORRIS (MCLAREN)",
    "VERSTAPPEN (RED BULL)",
-   "HAMILTON (FERRARI)",
-   "ANTONELLI (MERCEDES)"
+   "HADJAR (RED BULL)"
   ],
   "podiumLabel": "LAST RACE PODIUM",
-  "source": "ESPN / RACINGNEWS365",
+  "source": "RACINGNEWS365",
   "table": [
    [
     "ANTONELLI",
-    "380"
+    "390"
    ],
    [
     "VERSTAPPEN",
-    "261"
-   ],
-   [
-    "HAMILTON",
-    "259"
+    "279"
    ],
    [
     "RUSSELL",
-    "250"
+    "262"
+   ],
+   [
+    "HAMILTON",
+    "261"
    ],
    [
     "LECLERC",
-    "245"
+    "249"
    ],
    [
     "NORRIS",
-    "221"
+    "246"
    ],
    [
     "PIASTRI",
-    "144"
+    "152"
    ],
    [
     "HADJAR",
-    "107"
+    "122"
    ],
    [
     "LAWSON",
-    "83"
+    "89"
    ],
    [
     "GASLY",
@@ -60,26 +60,26 @@
    ]
   ],
   "tableLabel": "DRIVERS CHAMPIONSHIP",
-  "updated": "2026-11-04T06:45:00Z"
+  "updated": "2026-11-09T07:00:00Z"
  },
  "wec": {
   "last": [
-   "6 HOURS OF BARCELONA",
-   "18 Oct 2026",
-   "Barcelona, Spain"
-  ],
-  "next": [
    "6 HOURS OF MONZA (FINALE)",
-   "06-08 Nov 2026",
+   "08 Nov 2026",
    "Monza, Italy"
   ],
+  "next": [
+   "2027 SEASON",
+   "TBC",
+   "CALENDAR TBA"
+  ],
   "podium": [
-   "#8 TOYOTA",
-   "#7 TOYOTA",
-   "#50 FERRARI"
+   "#38 CADILLAC",
+   "#36 ALPINE",
+   "#51 FERRARI"
   ],
   "podiumLabel": "LAST RACE PODIUM",
-  "source": "FIAWEC.COM / RACINGNEWS365",
+  "source": "DAILYSPORTSCAR / RACINGNEWS365 / FIAWEC.COM",
   "table": [
    [
     "TOYOTA",
@@ -115,7 +115,7 @@
    ]
   ],
   "tableLabel": "MANUFACTURERS (AFTER R7 BARCELONA)",
-  "updated": "2026-11-04T06:45:00Z"
+  "updated": "2026-11-09T07:00:00Z"
  },
  "ac": {
   "last": [
@@ -145,21 +145,21 @@
  },
  "lfc": {
   "last": [
-   "ARSENAL",
-   "01 Nov 2026",
-   "Anfield \u00b7 HOME"
+   "CRYSTAL PALACE",
+   "08 Nov 2026",
+   "Selhurst Park \u00b7 AWAY"
   ],
   "lastLabel": "LAST MATCH",
   "next": [
-   "CRYSTAL PALACE",
-   "08 Nov 2026 14:00",
-   "Selhurst Park \u00b7 AWAY"
+   "TO BE CONFIRMED",
+   "\u2014",
+   "\u2014"
   ],
   "nextLabel": "NEXT MATCH",
   "podium": null,
   "podiumLabel": null,
-  "score": "FT  LFC 0 - 1 ARS",
-  "source": "SKY SPORTS / LIVERPOOLFC.COM / BESOCCER",
+  "score": "FT  CRY 1 - 3 LFC",
+  "source": "BESOCCER / SPORTS MOLE",
   "table": [
    [
     "ARSENAL",
@@ -167,18 +167,24 @@
     "27"
    ],
    [
+    "BRIGHTON & HOVE ALBION",
+    "10",
+    "22"
+   ],
+   [
     "MANCHESTER CITY",
     "10",
     "21"
    ],
    [
-    "BRIGHTON & HOVE ALBION",
-    "9",
-    "19"
+    "LIVERPOOL",
+    "10",
+    "18",
+    "hl"
    ],
    [
     "CHELSEA",
-    "9",
+    "10",
     "16"
    ],
    [
@@ -187,14 +193,13 @@
     "16"
    ],
    [
-    "LIVERPOOL",
-    "9",
-    "15",
-    "hl"
+    "AFC BOURNEMOUTH",
+    "10",
+    "15"
    ],
    [
     "BRENTFORD",
-    "9",
+    "10",
     "14"
    ],
    [
@@ -203,9 +208,9 @@
     "14"
    ],
    [
-    "AFC BOURNEMOUTH",
-    "9",
-    "12"
+    "ASTON VILLA",
+    "10",
+    "13"
    ],
    [
     "TOTTENHAM HOTSPUR",
@@ -218,18 +223,13 @@
     "12"
    ],
    [
-    "ASTON VILLA",
-    "9",
-    "12"
-   ],
-   [
     "HULL CITY",
     "10",
     "11"
    ],
    [
     "IPSWICH TOWN",
-    "9",
+    "10",
     "11"
    ],
    [
@@ -249,21 +249,21 @@
    ],
    [
     "MANCHESTER UNITED",
-    "9",
-    "7"
-   ],
-   [
-    "CRYSTAL PALACE",
-    "9",
-    "7"
+    "10",
+    "8"
    ],
    [
     "SUNDERLAND",
-    "9",
-    "5"
+    "10",
+    "8"
+   ],
+   [
+    "CRYSTAL PALACE",
+    "10",
+    "7"
    ]
   ],
   "tableLabel": "PREMIER LEAGUE  (PLD / PTS)",
-  "updated": "2026-11-08T06:50:00Z"
+  "updated": "2026-11-09T07:00:00Z"
  }
 }
