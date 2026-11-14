@@ -13,6 +13,27 @@
  ],
  "items": [
   {
+   "d": "2026-11-08",
+   "f": "2026-11-14T06:42:54Z",
+   "s": "sciencedaily.com",
+   "t": "Caltech robot makes history by building a structure in space",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm"
+  },
+  {
+   "d": "2026-11-08",
+   "f": "2026-11-14T06:42:54Z",
+   "s": "sciencedaily.com",
+   "t": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm"
+  },
+  {
+   "d": "2026-11-05",
+   "f": "2026-11-14T06:42:54Z",
+   "s": "sciencedaily.com",
+   "t": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm"
+  },
+  {
    "d": "2026-11-03",
    "f": "2026-11-04T06:40:34Z",
    "s": "sciencedaily.com",
@@ -431,35 +452,7 @@
    "s": "esa.int",
    "t": "GOMX-5 successfully launched",
    "u": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/GOMX-5_successfully_launched"
-  },
-  {
-   "d": "2026-09-24",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "New tests for rendezvous and docking interoperability",
-   "u": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/New_tests_for_rendezvous_and_docking_interoperability"
-  },
-  {
-   "d": "2026-09-24",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Record participation in ESA's Industry Space Days 2026",
-   "u": "https://www.esa.int/About_Us/Business_with_ESA/Record_participation_in_ESA_s_Industry_Space_Days_2026"
-  },
-  {
-   "d": "2026-09-23",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "ESA supports development of European spacecraft for servicing geostationary satellites",
-   "u": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_supports_development_of_European_spacecraft_for_servicing_geostationary_satellites"
-  },
-  {
-   "d": "2026-09-23",
-   "f": "2026-11-03T09:48:42Z",
-   "s": "turing.ac.uk",
-   "t": "The Alan Turing Institute sets out practical agenda to tackle frontier AI risks",
-   "u": "https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks"
   }
  ],
- "updated": "2026-11-04T06:40:34Z"
+ "updated": "2026-11-14T06:42:54Z"
 }
