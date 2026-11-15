@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-14T06:43:04Z",
+ "updated": "2026-11-15T06:42:55Z",
  "items": [
+  {
+   "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
+   "u": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt",
+   "s": "space.com",
+   "d": "2026-11-14",
+   "f": "2026-11-15T06:42:55Z"
+  },
   {
    "t": "SpaceX Starship Flight 15 live updates: How to spot Starship in the night sky as it coasts in orbit",
    "u": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-13-2026-starship-first-double-landing-attempt",
@@ -507,7 +514,7 @@
   }
  ],
  "failed": [
-  "nasa.gov (home)",
+  "nasa.gov",
   "sciencedaily.com",
   "esa.int (3 pages)",
   "nasa.gov ISS news",
