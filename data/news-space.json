@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T06:42:55Z",
+ "updated": "2026-11-16T06:42:44Z",
  "items": [
   {
    "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
@@ -490,27 +490,6 @@
    "s": "nasa.gov",
    "t": "NASA, SpaceX Set No Earlier Than Oct. 7 for Crew-12 Departure",
    "u": "https://www.nasa.gov/blogs/commercialcrew/2026/10/03/nasa-spacex-set-no-earlier-than-oct-7-for-crew-12-departure/"
-  },
-  {
-   "d": "2026-10-02",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "nasa.gov",
-   "t": "Station Crew Expands as NASA's SpaceX Crew-12 Prepares to Depart",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/10/02/station-crew-expands-as-nasas-spacex-crew-12-prepares-to-depart/"
-  },
-  {
-   "d": "2026-10-01",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "nasa.gov",
-   "t": "Crew-13 Members Enter Station, Join Expedition 75",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/10/01/crew-13-members-enter-station-join-expedition-75/"
-  },
-  {
-   "t": "UKspace at the 2026 Labour Party Conference",
-   "u": "https://www.ukspace.org/ukspace-at-2026-labour-party-conference/",
-   "s": "ukspace.org",
-   "d": "2026-10-01",
-   "f": "2026-11-07T12:38:33Z"
   }
  ],
  "failed": [
@@ -518,7 +497,7 @@
   "sciencedaily.com",
   "esa.int (3 pages)",
   "nasa.gov ISS news",
-  "space.com feed",
+  "space.com",
   "spacenews.com",
   "gov.uk UK Space Agency",
   "ukspace.org",
