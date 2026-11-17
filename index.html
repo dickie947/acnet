@@ -62,6 +62,26 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--red);outline-offset
 .ticker .sep{color:var(--amber-dim);padding:0 .6em}
 @keyframes roll{to{transform:translateX(-50%)}}
 
+/* article of the day (data/reading.json): manual-page card with a red rule, sits under the ticker */
+.aotd{margin-top:16px;border:1px solid var(--rule);border-left:6px solid var(--red);padding:10px 14px 12px;background:var(--hover)}
+.aotd-h{display:flex;justify-content:space-between;align-items:baseline;gap:4px 16px;flex-wrap:wrap;font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--red)}
+.aotd-h .ct{font-family:var(--crt);font-size:22px;letter-spacing:.04em;font-weight:400;color:var(--fg)}
+.aotd-t{display:block;margin-top:6px;font-size:20px;font-weight:800;line-height:1.2;overflow-wrap:anywhere}
+.aotd-t:visited{color:var(--visited)}
+.aotd-m{margin-top:5px;font-size:12px;color:var(--muted)}
+.aotd .chip{display:inline-block;border:1px solid var(--rule);padding:0 6px;margin-right:8px;font-size:10px;letter-spacing:.12em;font-weight:800;color:var(--fg);text-transform:uppercase}
+.aotd-rest{margin-top:6px;font-size:16px;font-weight:600}
+.aotd-f{display:flex;align-items:center;gap:8px 14px;flex-wrap:wrap;margin-top:10px;font-family:var(--crt);font-size:20px;color:var(--muted)}
+.aotd-f button{font-family:var(--display);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--fg);background:none;border:1px solid var(--rule);padding:4px 10px;cursor:pointer}
+.aotd-f button:hover{background:var(--bg)}
+.aotd-f .ok{color:var(--crt-dim);font-family:var(--display);font-size:11px;font-weight:800;letter-spacing:.14em}
+.aotd-bar{flex:1;min-width:120px;height:3px;background:var(--rule)}
+.aotd-bar i{display:block;height:100%;background:var(--red)}
+.aotd details{margin-top:8px;font-size:14px}
+.aotd summary{cursor:pointer;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--muted)}
+.aotd details ul{list-style:none;margin:6px 0 0;padding:0}
+.aotd details li{padding:2px 0;overflow-wrap:anywhere}
+
 /* main */
 .cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:28px;margin-top:20px;align-items:start}
 .sec-h{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:6px;margin-bottom:6px;
@@ -164,6 +184,8 @@ ol.feed{list-style:none;margin:0;padding:0}
     <div class="lbl" id="jsrlbl">JSR 861</div>
     <div class="view"><div class="track" id="track"></div></div>
   </div>
+
+  <section class="aotd" id="aotd" aria-label="Article of the day" hidden></section>
 
   <div class="cols">
     <main>
@@ -326,7 +348,7 @@ function persistRead(){
 function markRead(k){
   if(!k||readMap[k]) return;
   readMap[k]=Date.now(); persistRead();
-  setTimeout(renderNews,250);
+  setTimeout(function(){renderNews();renderAotd()},250);
 }
 (function(){
   var el=document.getElementById("news");
@@ -335,6 +357,59 @@ function markRead(k){
   el.addEventListener("auxclick",onOpen);
 })();
 function getJSON(u){return fetch(u+"?v="+Math.floor(Date.now()/600000),{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()})}
+
+// ---------- ARTICLE OF THE DAY: one item per weekday from data/reading.json ----------
+// "Done" reuses the read list (readMap), so it syncs between devices with everything else.
+var READING=null, AOTD_DAY="";
+function ymd(d){return d.getFullYear()+"-"+p2(d.getMonth()+1)+"-"+p2(d.getDate())}
+function fmtDay(s){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(s||""); if(!m) return "";
+  var d=new Date(+m[1],+m[2]-1,+m[3]); return DAYS[d.getDay()].slice(0,3)+" "+p2(d.getDate())+" "+MONTHS[d.getMonth()].slice(0,3)}
+function aLink(it,cls){return '<a class="'+cls+'" href="'+esc(it.u)+'" target="_blank" rel="noopener" data-rk="'+h53(it.u)+'">'+esc(it.t)+'</a>'}
+function renderAotd(){
+  var el=document.getElementById("aotd"); if(!el) return;
+  var items=((READING&&READING.items)||[]).filter(function(it){return it&&it.u&&it.t&&it.d&&/^https?:\/\//.test(it.u)});
+  if(!items.length){ el.hidden=true; return }
+  el.hidden=false; AOTD_DAY=ymd(new Date());
+  var today=AOTD_DAY, total=items.length;
+  function isDone(it){return !!readMap[h53(it.u)]}
+  var done=items.filter(isDone).length;
+  var cur=null,next=null;
+  items.forEach(function(it){ if(it.d===today) cur=it; if(!next&&it.d>today) next=it });
+  var backlog=items.filter(function(it){return it.d<today&&!isDone(it)});
+  var show=cur||(today<items[0].d?items[0]:null);
+  var tag, body="";
+  if(cur) tag='DAY '+cur.n+' / '+total+' · '+fmtDay(cur.d);
+  else if(show) tag='STARTS '+fmtDay(show.d);
+  else if(today>items[items.length-1].d) tag='LIST ENDED';
+  else tag='NO ITEM TODAY';
+  if(show){
+    body='<div>'+aLink(show,"aotd-t")+'</div><div class="aotd-m"><span class="chip">'+esc(show.k||"Web")+'</span>'+esc(show.c||"")+'</div>';
+  }else if(next){
+    body='<div class="aotd-rest">Rest day. Next: '+esc(fmtDay(next.d))+'</div>';
+  }else{
+    body='<div class="aotd-rest">'+(done>=total?'List complete.':'Nothing scheduled.')+'</div>';
+  }
+  var foot='<div class="aotd-f">';
+  if(show){ foot+= isDone(show)?'<span class="ok">DONE ✓</span>':'<button type="button" data-rk="'+h53(show.u)+'">Mark done</button>' }
+  foot+='<span>'+done+' / '+total+' DONE</span><span class="aotd-bar"><i style="width:'+(done/total*100)+'%"></i></span></div>';
+  var bl="";
+  if(backlog.length){
+    bl='<details><summary>Earlier items not done ('+backlog.length+')</summary><ul>'+backlog.map(function(it){
+      return '<li><span class="aotd-m">'+esc(fmtDay(it.d))+'</span> '+aLink(it,"")+'</li>'}).join("")+'</ul></details>';
+  }
+  el.innerHTML='<div class="aotd-h"><span>Article of the day</span><span class="ct">'+esc(tag)+'</span></div>'+body+foot+bl;
+}
+(function(){
+  var el=document.getElementById("aotd");
+  el.addEventListener("click",function(e){
+    var b=e.target.closest&&e.target.closest("[data-rk]"); if(b) markRead(b.getAttribute("data-rk"));
+  });
+  el.addEventListener("auxclick",function(e){
+    var a=e.target.closest&&e.target.closest("a[data-rk]"); if(a) markRead(a.getAttribute("data-rk"));
+  });
+  document.addEventListener("visibilitychange",function(){ if(!document.hidden) renderAotd() });
+  setInterval(function(){ if(ymd(new Date())!==AOTD_DAY) renderAotd() },60000);
+})();
 
 // ---------- GAP SCAN: weekly horizon-scan reports (data/gapscan.json, newest first) ----------
 var GAP={doc:null,sel:0};
@@ -374,6 +449,7 @@ function renderGap(){
 renderGap();
 
 function startNews(){
+  getJSON("data/reading.json").then(function(d){READING=d;renderAotd()}).catch(function(){});
   getJSON("data/gapscan.json").then(function(d){GAP.doc=d;renderGap()}).catch(function(){});
   GROUPS.forEach(function(g){ getJSON("data/news-"+g[0]+".json").then(function(d){NEWS[g[0]]=d;renderNews()}).catch(function(){}) });
 }
@@ -427,7 +503,7 @@ var SYNC=(function(){
         for(k in merged){ if(readMap[k]!==merged[k]) changedLocal=true; if(remote[k]!==merged[k]) changedRemote=true }
         readMap=merged; pruneRead();
         try{localStorage.setItem("acnet-read",JSON.stringify(readMap))}catch(e){}
-        if(changedLocal) renderNews();
+        if(changedLocal){ renderNews(); renderAotd() }
         if(!changedRemote) return;
         return api("/gists/"+id,{method:"PATCH",body:JSON.stringify({files:(function(){var o={};o[FILE]={content:JSON.stringify({m:readMap,updated:new Date().toISOString()})};return o})()})});
       });
