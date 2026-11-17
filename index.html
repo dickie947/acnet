@@ -112,6 +112,21 @@ ol.feed{list-style:none;margin:0;padding:0}
 .bar{height:3px;background:var(--crt-line)}
 .bar i{display:block;height:100%;width:0;background:var(--crt-fg)}
 
+
+/* gap scan panel (weekly horizon scan, amber CRT) */
+.gap{margin-top:28px;background:var(--amber-bg);color:var(--amber);border:3px solid var(--amber-dim);border-radius:6px;font-family:var(--crt);font-size:21px;line-height:1.15;overflow:hidden}
+.gap a{color:var(--amber);text-decoration:underline;text-decoration-color:var(--amber-dim)}
+.gap-h{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:6px 10px;background:var(--amber);color:var(--amber-bg);font-size:22px;letter-spacing:.06em}
+.gap-h select{font:inherit;font-size:18px;background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber-bg);padding:0 6px}
+.gap-b{padding:8px 12px 10px}
+.gap .k{color:var(--amber-dim);font-size:17px;letter-spacing:.1em;text-transform:uppercase;margin-top:8px;border-top:1px solid var(--amber-dim);padding-top:6px}
+.gap .k:first-child{border-top:0;margin-top:0;padding-top:0}
+.gap ul{list-style:none;margin:2px 0 0;padding:0}
+.gap li{padding:2px 0;overflow-wrap:anywhere}
+.gap .cf{color:var(--amber-dim);font-size:16px;margin-right:6px}
+.gap .dl{color:var(--red)}
+.gap .mut{color:var(--amber-dim);font-size:17px}
+
 @media (min-width:1400px){
   .cols{grid-template-columns:minmax(0,1fr) 380px}
   #news{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px;align-items:start}
@@ -153,7 +168,8 @@ ol.feed{list-style:none;margin:0;padding:0}
   <div class="cols">
     <main>
       <div id="news"></div>
-      <p class="note"><b>ACnet.</b> Headlines refresh daily and show the 15 newest unread per section. Opening a story hides it on this device. Sports and the ticker refresh daily.</p>
+      <section class="gap" id="gap" aria-label="Weekly gap scan"></section>
+      <p class="note"><b>ACnet.</b> Headlines refresh daily and show the 15 newest unread per section. Opening a story hides it on this device. Sports and the ticker refresh daily. The gap scan refreshes weekly.</p>
       <div class="note sync" id="sync"></div>
     </main>
 
@@ -319,7 +335,46 @@ function markRead(k){
   el.addEventListener("auxclick",onOpen);
 })();
 function getJSON(u){return fetch(u+"?v="+Math.floor(Date.now()/600000),{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()})}
+
+// ---------- GAP SCAN: weekly horizon-scan reports (data/gapscan.json, newest first) ----------
+var GAP={doc:null,sel:0};
+function safeUrl(u){return /^https?:\/\//.test(String(u||""))?String(u):""}
+function gLink(t,u){var l=safeUrl(u);return l?'<a href="'+esc(l)+'" target="_blank" rel="noopener">'+esc(t)+'</a>':esc(t)}
+function gList(arr,fn){return arr&&arr.length?'<ul>'+arr.map(function(x){return '<li>'+fn(x)+'</li>'}).join("")+'</ul>':'<div class="mut">NONE FOUND</div>'}
+function cf(x){return x&&x.c?'<span class="cf">['+esc(String(x.c).toUpperCase())+']</span>':''}
+function renderGap(){
+  var el=document.getElementById("gap"); if(!el) return;
+  var reps=(GAP.doc&&GAP.doc.reports)||[];
+  if(!reps.length){
+    el.innerHTML='<div class="gap-h"><span>GAP SCAN</span><span>NO REPORT YET</span></div><div class="gap-b"><div class="mut">WEEKLY SCAN RUNS FRIDAYS ~05:46 UK. FIRST REPORT APPEARS HERE.</div></div>';
+    return;
+  }
+  if(GAP.sel>=reps.length) GAP.sel=0;
+  var r=reps[GAP.sel];
+  var opts=reps.map(function(x,i){return '<option value="'+i+'"'+(i===GAP.sel?' selected':'')+'>'+esc(x.date||"?")+'</option>'}).join("");
+  var h='<div class="gap-h"><span>GAP SCAN</span><span>REPORT <select id="gapsel" aria-label="Choose report">'+opts+'</select></span></div><div class="gap-b">';
+  if(r.summary) h+='<div>'+esc(r.summary)+'</div>';
+  h+='<div class="k">ACT SOON (CLOSING WITHIN 60 DAYS)</div>'+gList(r.act_soon,function(x){
+    return cf(x)+gLink(x.t||"",x.u)+(x.deadline?' <span class="dl">· CLOSES '+esc(x.deadline)+'</span>':'')+(x.who?' <span class="mut">· '+esc(x.who)+'</span>':'')});
+  h+='<div class="k">NEW THIS WEEK</div>'+gList(r["new"],function(x){
+    return cf(x)+gLink(x.t||"",x.u)+(x.d?' <span class="mut">· '+esc(x.d)+'</span>':'')});
+  h+='<div class="k">CANDIDATE UPDATES</div>'+gList(r.candidates,function(x){
+    return '<b>'+esc(x.id||"")+'</b> '+cf(x)+esc(x.change||"")+(safeUrl(x.u)?' '+gLink("[src]",x.u):'')});
+  if(r.suggestions&&r.suggestions.length){
+    h+='<div class="k">SUGGESTED NEW CANDIDATES (PASTE INTO GAP LOG)</div>'+gList(r.suggestions,function(x){
+      return '<b>'+esc(x.name||"")+'</b> · '+esc(x.gap||"")+' <span class="mut">· '+esc(x.domain||"")+' · $:'+esc(x.money||"?")+' GAP:'+esc(x.gap_sig||"?")+' EDGE:'+esc(x.edge||"?")+'</span>'+(safeUrl(x.u)?' '+gLink("[src]",x.u):'')+(x.next?' <span class="mut">→ '+esc(x.next)+'</span>':'')});
+  }
+  var chk=(r.checked||[]).length, bad=(r.failed||[]);
+  h+='<div class="k">SOURCES</div><div class="mut">'+chk+' CHECKED'+(bad.length?' · UNREACHABLE: '+esc(bad.join(", ")):'')+'</div>';
+  h+='</div>';
+  el.innerHTML=h;
+  var sel=document.getElementById("gapsel");
+  if(sel) sel.addEventListener("change",function(){GAP.sel=+sel.value;renderGap()});
+}
+renderGap();
+
 function startNews(){
+  getJSON("data/gapscan.json").then(function(d){GAP.doc=d;renderGap()}).catch(function(){});
   GROUPS.forEach(function(g){ getJSON("data/news-"+g[0]+".json").then(function(d){NEWS[g[0]]=d;renderNews()}).catch(function(){}) });
 }
 renderNews();
