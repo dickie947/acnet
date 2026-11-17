@@ -1,0 +1,439 @@
+{
+ "title": "Reading list: one a day, weekdays",
+ "start": "2026-11-18",
+ "end": "2027-02-04",
+ "items": [
+  {
+   "n": 1,
+   "d": "2026-11-18",
+   "t": "IATA whitepaper (future aircraft communications, per URL)",
+   "u": "https://www.iata.org/contentassets/badbfd2d36a74f12b021c9dd899ecbad/whitepaper_future_aircraft_communications_v1_3.pdf",
+   "k": "PDF",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 2,
+   "d": "2026-11-19",
+   "t": "EUROCONTROL: Future communications infrastructure and multilink (FCI)",
+   "u": "https://www.eurocontrol.int/function/future-communications-infrastructure-and-multilink-long-term",
+   "k": "Web",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 3,
+   "d": "2026-11-20",
+   "t": "EUROCONTROL: System-wide information management (SWIM)",
+   "u": "https://www.eurocontrol.int/concept/system-wide-information-management",
+   "k": "Web",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 4,
+   "d": "2026-11-23",
+   "t": "GUTMA: Recommendations to accelerate U-space implementation in the EU",
+   "u": "https://gutma.org/gutma-recommendations-to-accelerate-u-space-implementation-in-the-eu/",
+   "k": "Web",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 5,
+   "d": "2026-11-24",
+   "t": "GUTMA: Global UTM Architecture V1",
+   "u": "https://www.gutma.org/docs/Global_UTM_Architecture_V1.pdf",
+   "k": "PDF",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 6,
+   "d": "2026-11-25",
+   "t": "Resilient PNT best practice and guidance (RIN)",
+   "u": "https://rin.org.uk/mpage/Resilient_PNT",
+   "k": "Hub",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 7,
+   "d": "2026-11-26",
+   "t": "Aerospace Technology Institute: Publications archive, page 3",
+   "u": "https://www.ati.org.uk/what-we-do/research-innovation/publications/page/3/",
+   "k": "Hub",
+   "c": "Aviation digital infrastructure and airspace"
+  },
+  {
+   "n": 8,
+   "d": "2026-11-27",
+   "t": "Army approach to robotic and autonomous systems (RAS)",
+   "u": "https://www.army.mod.uk/media/15790/20220126_army-approach-to-ras_final.pdf",
+   "k": "PDF",
+   "c": "Uncrewed systems and human-machine teaming"
+  },
+  {
+   "n": 9,
+   "d": "2026-11-30",
+   "t": "techUK: MoD Human Machine Teaming (HMT) Framework",
+   "u": "https://www.techuk.org/insights/news/ministry-of-defence-human-machine-teaming-hmt-framework",
+   "k": "Web",
+   "c": "Uncrewed systems and human-machine teaming"
+  },
+  {
+   "n": 10,
+   "d": "2026-12-01",
+   "t": "Advancing Human-Machine Teaming: Concepts, Challenges, and Applications",
+   "u": "https://arxiv.org/html/2503.16518v1",
+   "k": "Paper",
+   "c": "Uncrewed systems and human-machine teaming"
+  },
+  {
+   "n": 11,
+   "d": "2026-12-02",
+   "t": "Small Wars Journal: Building the US Navy's Autonomous Undersea Fleet",
+   "u": "https://smallwarsjournal.com/2026/09/21/autonomous-undersea-fleet-us-navy/",
+   "k": "Web",
+   "c": "Uncrewed systems and human-machine teaming"
+  },
+  {
+   "n": 12,
+   "d": "2026-12-03",
+   "t": "AntarcticGlaciers.org: Uncrewed Aerial Vehicles (UAVs)",
+   "u": "https://www.antarcticglaciers.org/glacial-geology/uncrewed-aerial-vehicles-uavs/",
+   "k": "Web",
+   "c": "Uncrewed systems and human-machine teaming"
+  },
+  {
+   "n": 13,
+   "d": "2026-12-04",
+   "t": "ScienceDaily: Pushing boundaries of drone control for extreme conditions",
+   "u": "https://www.sciencedaily.com/releases/2016/11/161122121952.htm",
+   "k": "Web",
+   "c": "Uncrewed systems and human-machine teaming"
+  },
+  {
+   "n": 14,
+   "d": "2026-12-07",
+   "t": "Berkeley CLTC: Flight to Safety-Critical AI",
+   "u": "https://cltc.berkeley.edu/wp-content/uploads/2020/08/Flight-to-Safety-Critical-AI.pdf",
+   "k": "PDF",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 15,
+   "d": "2026-12-08",
+   "t": "ICAO: Digitalization, artificial intelligence in aviation and the human factor",
+   "u": "https://www.icao.int/sites/default/files/Meetings/a41/Documents/WP/wp_605_en.pdf",
+   "k": "PDF",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 16,
+   "d": "2026-12-09",
+   "t": "AI Security Institute: Frontier AI Trends Report",
+   "u": "https://www.aisi.gov.uk/frontier-ai-trends-report/pdf",
+   "k": "PDF",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 17,
+   "d": "2026-12-10",
+   "t": "Alan Turing Institute: Frontier AI Risks, a practical way forward",
+   "u": "https://www.turing.ac.uk/news/publications/frontier-ai-risks-practical-way-forward",
+   "k": "Web",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 18,
+   "d": "2026-12-11",
+   "t": "Alan Turing Institute: Defence AI Research (DARE)",
+   "u": "https://www.turing.ac.uk/science-innovation/defence-and-national-security/defence-artificial-intelligence-research-dare",
+   "k": "Hub",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 19,
+   "d": "2026-12-14",
+   "t": "ai.gov.uk: AI Knowledge Hub",
+   "u": "https://ai.gov.uk/knowledge-hub/",
+   "k": "Hub",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 20,
+   "d": "2026-12-15",
+   "t": "ai.gov.uk: Insights (Incubator for AI)",
+   "u": "https://ai.gov.uk/insights/",
+   "k": "Hub",
+   "c": "AI safety, assurance and government AI"
+  },
+  {
+   "n": 21,
+   "d": "2026-12-16",
+   "t": "Modern War Institute: Build at Scale, Innovate at the Edge, Close the Feedback Loop Fast",
+   "u": "https://mwi.westpoint.edu/build-at-scale-innovate-at-the-edge-close-the-feedback-loop-fast-transforming-acquisition-for-the-drone-age/",
+   "k": "Web",
+   "c": "Defence acquisition and innovation"
+  },
+  {
+   "n": 22,
+   "d": "2026-12-17",
+   "t": "CEPA: Unleashing Defense Innovation",
+   "u": "https://cepa.org/comprehensive-reports/unleashing-defense-innovation/",
+   "k": "Report",
+   "c": "Defence acquisition and innovation"
+  },
+  {
+   "n": 23,
+   "d": "2026-12-18",
+   "t": "CSIS: How Ukraine Rebuilt Its Military Acquisition System Around Commercial Technology",
+   "u": "https://www.csis.org/analysis/how-ukraine-rebuilt-its-military-acquisition-system-around-commercial-technology",
+   "k": "Web",
+   "c": "Defence acquisition and innovation"
+  },
+  {
+   "n": 24,
+   "d": "2026-12-21",
+   "t": "CSIS: Unleashing U.S. Military Drone Dominance",
+   "u": "https://www.csis.org/analysis/unleashing-us-military-drone-dominance-what-united-states-can-learn-ukraine",
+   "k": "Web",
+   "c": "Defence acquisition and innovation"
+  },
+  {
+   "n": 25,
+   "d": "2026-12-22",
+   "t": "CSIS: Ukraine's Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare",
+   "u": "https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare",
+   "k": "Web",
+   "c": "Defence acquisition and innovation"
+  },
+  {
+   "n": 26,
+   "d": "2026-12-23",
+   "t": "CEPA: What Makes Ukrainian Defense Technology So Effective?",
+   "u": "https://cepa.org/article/what-makes-ukrainian-defense-technology-so-effective-speed-scale-innovation/",
+   "k": "Web",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 27,
+   "d": "2026-12-24",
+   "t": "CSIS: How and Why Ukraine's Military Is Going Digital",
+   "u": "https://www.csis.org/analysis/how-and-why-ukraines-military-going-digital",
+   "k": "Web",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 28,
+   "d": "2026-12-29",
+   "t": "Chatham House: What Ukraine can teach Europe and the world about innovation in modern warfare",
+   "u": "https://www.chathamhouse.org/2025/03/what-ukraine-can-teach-europe-and-world-about-innovation-modern-warfare",
+   "k": "Web",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 29,
+   "d": "2026-12-30",
+   "t": "Friends of Europe: Ukraine's wartime innovation is not about drones",
+   "u": "https://www.friendsofeurope.org/insights/critical-thinking-ukraines-defence-is-not-about-drones/",
+   "k": "Web",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 30,
+   "d": "2026-12-31",
+   "t": "RAND Europe: Wartime innovation and adaptation, supporting Ukraine's digital transformation",
+   "u": "https://www.rand.org/randeurope/research/projects/2025/innovation-adaptation-at-war-cm.html",
+   "k": "Web",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 31,
+   "d": "2027-01-04",
+   "t": "Small Wars Journal: Ukraine's Lessons for Modern Warfare",
+   "u": "https://smallwarsjournal.com/2026/09/23/ukraine-laboratory-of-modern-war/",
+   "k": "Web",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 32,
+   "d": "2027-01-05",
+   "t": "RUSI: Preliminary Lessons from Russia's Unconventional Operations, Feb 2022 to Feb 2023",
+   "u": "https://static.rusi.org/202303-SR-Unconventional-Operations-Russo-Ukrainian-War-web-final.pdf.pdf",
+   "k": "PDF",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 33,
+   "d": "2027-01-06",
+   "t": "RUSI: Winning Without Technological Advantage",
+   "u": "https://www.rusi.org/explore-our-research/publications/research-papers/winning-without-technological-advantage",
+   "k": "Report",
+   "c": "Lessons from Ukraine"
+  },
+  {
+   "n": 34,
+   "d": "2027-01-07",
+   "t": "JAPCC: High Above the High North",
+   "u": "https://www.japcc.org/articles/high-above-the-high-north/",
+   "k": "Web",
+   "c": "Arctic, hybrid threats and emerging technology"
+  },
+  {
+   "n": 35,
+   "d": "2027-01-08",
+   "t": "RUSI: The UK and the Future of Arctic and High North Security",
+   "u": "https://www.rusi.org/explore-our-research/publications/insights-papers/uk-and-future-arctic-and-high-north-security",
+   "k": "Web",
+   "c": "Arctic, hybrid threats and emerging technology"
+  },
+  {
+   "n": 36,
+   "d": "2027-01-11",
+   "t": "RUSI: Russian Sabotage of NATO Infrastructure",
+   "u": "https://www.rusi.org/explore-our-research/publications/insights-papers/russian-sabotage-nato-infrastructure-identifying-alliance-vulnerabilities",
+   "k": "Web",
+   "c": "Arctic, hybrid threats and emerging technology"
+  },
+  {
+   "n": 37,
+   "d": "2027-01-12",
+   "t": "Forbes: Quantum Computing Has Arrived; We Need To Prepare For Its Impact",
+   "u": "https://www.forbes.com/sites/chuckbrooks/2025/02/22/quantum-computing-has-arrived-we-need-to-prepare-for-its-impact/",
+   "k": "Web",
+   "c": "Arctic, hybrid threats and emerging technology"
+  },
+  {
+   "n": 38,
+   "d": "2027-01-13",
+   "t": "ESA: Artificial intelligence in space",
+   "u": "https://www.esa.int/articles/artificial-intelligence-in-space",
+   "k": "Web",
+   "c": "AI in space and ISR"
+  },
+  {
+   "n": 39,
+   "d": "2027-01-14",
+   "t": "NASA: Super Intelligence",
+   "u": "https://www.nasa.gov/super-intelligence/",
+   "k": "Web",
+   "c": "AI in space and ISR"
+  },
+  {
+   "n": 40,
+   "d": "2027-01-15",
+   "t": "Google: Project Suncatcher (ML infrastructure in space)",
+   "u": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+   "k": "Web",
+   "c": "AI in space and ISR"
+  },
+  {
+   "n": 41,
+   "d": "2027-01-18",
+   "t": "Alan Turing Institute: Aemelia (AI-enabled satellite inference from ISAR data)",
+   "u": "https://www.turing.ac.uk/research/research-projects/aemelia",
+   "k": "Web",
+   "c": "AI in space and ISR"
+  },
+  {
+   "n": 42,
+   "d": "2027-01-19",
+   "t": "PubMed: Procedural skill retention and decay, a meta-analytic review",
+   "u": "https://pubmed.ncbi.nlm.nih.gov/40455501/",
+   "k": "Paper",
+   "c": "Skills, competence and human factors"
+  },
+  {
+   "n": 43,
+   "d": "2027-01-20",
+   "t": "PubMed: Beyond 'use it or lose it', retention of competence",
+   "u": "https://pubmed.ncbi.nlm.nih.gov/41025900/",
+   "k": "Paper",
+   "c": "Skills, competence and human factors"
+  },
+  {
+   "n": 44,
+   "d": "2027-01-21",
+   "t": "NATO STO-TR-HFM-292",
+   "u": "https://publications.sto.nato.int/publications/STO%20Technical%20Reports/STO-TR-HFM-292/$$TR-HFM-292-ALL.pdf",
+   "k": "PDF",
+   "c": "Skills, competence and human factors"
+  },
+  {
+   "n": 45,
+   "d": "2027-01-22",
+   "t": "Block: From Hierarchy to Intelligence",
+   "u": "https://block.xyz/inside/from-hierarchy-to-intelligence",
+   "k": "Web",
+   "c": "Organisations, careers and AI at work"
+  },
+  {
+   "n": 46,
+   "d": "2027-01-25",
+   "t": "Futurism: Jack Dorsey Isn't Telling the Real Story About Block's AI Layoffs, Insider Says",
+   "u": "https://futurism.com/artificial-intelligence/jack-dorsey-block-ai-layoffs-insider",
+   "k": "Web",
+   "c": "Organisations, careers and AI at work"
+  },
+  {
+   "n": 47,
+   "d": "2027-01-26",
+   "t": "MIT Professional Education: The Role of a Chief Technology Officer",
+   "u": "https://professionalprograms.mit.edu/blog/leadership/chief-technology-officer/",
+   "k": "Web",
+   "c": "Organisations, careers and AI at work"
+  },
+  {
+   "n": 48,
+   "d": "2027-01-27",
+   "t": "Alan Turing Institute: It's not just business, AI risks, rewards and responsibilities",
+   "u": "https://www.turing.ac.uk/courses/its-not-just-business-ai-risks-rewards-and-responsibilities",
+   "k": "Course",
+   "c": "AI courses and learning pathways"
+  },
+  {
+   "n": 49,
+   "d": "2027-01-28",
+   "t": "Alan Turing Institute: Data science and AI careers, a spotlight series",
+   "u": "https://www.turing.ac.uk/opportunities-turing/data-science-and-ai-careers-spotlight-series",
+   "k": "Web",
+   "c": "AI courses and learning pathways"
+  },
+  {
+   "n": 50,
+   "d": "2027-01-29",
+   "t": "Office for Students: Postgraduate conversion courses in data science and AI",
+   "u": "https://www.officeforstudents.org.uk/for-providers/student-protection-and-choice/postgraduate-conversion-courses-in-data-science-and-artificial-intelligence/",
+   "k": "Web",
+   "c": "AI courses and learning pathways"
+  },
+  {
+   "n": 51,
+   "d": "2027-02-01",
+   "t": "Elements of AI (free introduction for non-experts)",
+   "u": "https://www.elementsofai.com/",
+   "k": "Course",
+   "c": "AI courses and learning pathways"
+  },
+  {
+   "n": 52,
+   "d": "2027-02-02",
+   "t": "AI for Beginners (Microsoft)",
+   "u": "https://microsoft.github.io/AI-For-Beginners/#/",
+   "k": "Course",
+   "c": "AI courses and learning pathways"
+  },
+  {
+   "n": 53,
+   "d": "2027-02-03",
+   "t": "arXiv 2606.03673 (no title in your email)",
+   "u": "https://arxiv.org/pdf/2606.03673",
+   "k": "PDF",
+   "c": "Untitled links (check first, keep or bin)"
+  },
+  {
+   "n": 54,
+   "d": "2027-02-04",
+   "t": "NASA NTRS 20140010819, saved as 'PowerPoint Presentation'",
+   "u": "https://ntrs.nasa.gov/api/citations/20140010819/downloads/20140010819.pdf",
+   "k": "PDF",
+   "c": "Untitled links (check first, keep or bin)"
+  }
+ ]
+}
