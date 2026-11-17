@@ -1,4 +1,116 @@
 {
- "updated": null,
- "reports": []
+ "updated": "2026-11-17T07:30:58Z",
+ "reports": [
+  {
+   "date": "2026-11-17",
+   "summary": "First manual scan. Strongest finding: three public sources now evidence a gap in UK PNT testing and standards (G002). No new call found that closes on your three candidates inside 60 days. Monthly sources (harmonisation dossiers, GSTP, UK Microgravity Demonstration Programme) were not scanned.",
+   "act_soon": [
+    {
+     "t": "NAVISP Element 2: new UK proposals assessed in January 2027 round (2026 budget substantially committed)",
+     "u": "https://www.gov.uk/government/publications/apply-for-funding-navisp-navigation-innovation-support-programme",
+     "deadline": "January 2027 assessment; UKSA advises submitting early",
+     "who": "UK organisations doing PNT R&D with commercial focus",
+     "c": "Certain"
+    },
+    {
+     "t": "ESA Smart and Resilient Energy Systems call (low relevance to your candidates)",
+     "u": "https://iuk-business-connect.org.uk/?p=137916",
+     "deadline": "2026-11-27",
+     "who": "Eligibility not confirmed; rolling assessment, pitch questionnaire first",
+     "c": "Likely"
+    }
+   ],
+   "new": [
+    {
+     "t": "UKSA NAVISP page updated 27 Oct 2026: Element 2 2026 budget committed, Element 3 competition details to come",
+     "u": "https://www.gov.uk/government/publications/apply-for-funding-navisp-navigation-innovation-support-programme",
+     "d": "2026-10-27",
+     "c": "Certain"
+    },
+    {
+     "t": "NAVISP EL3-045 PNT Innovation Institute final presentation: UK testing capabilities assessed, gap analysis",
+     "u": "https://navisp.esa.int/news/article/final-presentation-of-navisp-el3-045-positioning-navigation-and-timing-innovation-institute",
+     "d": null,
+     "c": "Certain"
+    },
+    {
+     "t": "UK PNT growth call for evidence outcome: absence of standards named as a barrier",
+     "u": "https://www.gov.uk/government/calls-for-evidence/positioning-navigation-and-timing-growth/outcome/positioning-navigation-and-timing-growth-government-response",
+     "d": null,
+     "c": "Certain"
+    },
+    {
+     "t": "ESA Celeste IOD and Future PNT Demonstrators calls for ideas remain open (ongoing)",
+     "u": "https://www.esa.int/articles/open-opportunities-with-esa-navigation",
+     "d": "2026-06-23",
+     "c": "Certain"
+    },
+    {
+     "t": "ESA OSIP campaign: Embodied Intelligence for Autonomous Space Systems (launched 30 Jun 2026; closing date not found)",
+     "u": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Embodied_Intelligence_for_Autonomous_Space_Systems",
+     "d": "2026-06-30",
+     "c": "Certain"
+    },
+    {
+     "t": "ESA parabolic flight CORA continuously open via OSIP; stated scope is life and physical sciences",
+     "u": "https://explorationscience.esa.int/?p=209",
+     "d": null,
+     "c": "Certain"
+    },
+    {
+     "t": "UK Defence Innovation Cycle 7: GNSS-denied UAS navigation challenge (50 m accuracy); closing date not checked",
+     "u": "https://iuk-business-connect.org.uk/?p=127938",
+     "d": "2026-02-27",
+     "c": "Likely"
+    },
+    {
+     "t": "UK plans national eLoran with six transmitters per ION newsletter (secondary source)",
+     "u": "https://overlooksys.com/wp-content/uploads/2026/08/ION-Summer-2026.pdf",
+     "d": "2026-08-01",
+     "c": "Likely"
+    }
+   ],
+   "candidates": [
+    {
+     "id": "G001",
+     "change": "No change to gap signal. Money plausible via the OSIP Embodied Intelligence campaign, but its scope is space robotics, not navigation V&V; closing date unverified.",
+     "u": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Embodied_Intelligence_for_Autonomous_Space_Systems",
+     "c": "Likely"
+    },
+    {
+     "id": "G002",
+     "change": "Gap evidence found: NAVISP PNT Institute analysis names difficult access to testing and validation and no trusted standards route; UK call for evidence names missing standards. Suggest Gap = Y. Money = Y via permanent NAVISP Element 3 call and UK subscription. Edge = Y (T&E). Detail from the PNT Institute slides came from a search snippet; read the full deck.",
+     "u": "https://navisp.esa.int/news/article/final-presentation-of-navisp-el3-045-positioning-navigation-and-timing-innovation-institute",
+     "c": "Likely"
+    },
+    {
+     "id": "G003",
+     "change": "No new evidence. Monthly sources (harmonisation dossiers, Moonlight, LUPIN) not scanned this run. Gap signal stays N.",
+     "u": "",
+     "c": "Certain"
+    }
+   ],
+   "suggestions": [
+    {
+     "name": "Independent evaluation of GNSS-denied UAS navigation",
+     "gap": "Defence buyers ask for GNSS-denied navigation at stated accuracy; no evidence yet that independent test and evaluation is the bottleneck.",
+     "domain": "Defence UAS / PNT T&E",
+     "money": "Y",
+     "gap_sig": "N",
+     "edge": "Y",
+     "u": "https://iuk-business-connect.org.uk/?p=127938",
+     "next": "Find a public source saying such systems lack independent evaluation. Keep strictly separate from MOD work."
+    }
+   ],
+   "checked": [
+    "ESA open opportunities with ESA Navigation",
+    "UKSA NAVISP funding page",
+    "ESA parabolic flight CORA page",
+    "Web searches: OSIP campaigns, NAVISP calls, UKDI/DASA GNSS-denied, UK PNT testing and standards"
+   ],
+   "failed": [
+    "navisp.esa.int (fetch not approved, not read)"
+   ]
+  }
+ ]
 }
