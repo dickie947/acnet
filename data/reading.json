@@ -1,11 +1,11 @@
 {
  "title": "Reading list: one a day, weekdays",
- "start": "2026-11-18",
- "end": "2027-02-22",
+ "start": "2026-11-19",
+ "end": "2027-02-23",
  "items": [
   {
    "n": 1,
-   "d": "2026-11-18",
+   "d": "2026-11-19",
    "t": "IATA whitepaper (future aircraft communications, per URL)",
    "u": "https://www.iata.org/contentassets/badbfd2d36a74f12b021c9dd899ecbad/whitepaper_future_aircraft_communications_v1_3.pdf",
    "k": "PDF",
@@ -13,7 +13,7 @@
   },
   {
    "n": 2,
-   "d": "2026-11-19",
+   "d": "2026-11-20",
    "t": "EUROCONTROL: Future communications infrastructure and multilink (FCI)",
    "u": "https://www.eurocontrol.int/function/future-communications-infrastructure-and-multilink-long-term",
    "k": "Web",
@@ -21,7 +21,7 @@
   },
   {
    "n": 3,
-   "d": "2026-11-20",
+   "d": "2026-11-23",
    "t": "EUROCONTROL: System-wide information management (SWIM)",
    "u": "https://www.eurocontrol.int/concept/system-wide-information-management",
    "k": "Web",
@@ -29,7 +29,7 @@
   },
   {
    "n": 4,
-   "d": "2026-11-23",
+   "d": "2026-11-24",
    "t": "GUTMA: Recommendations to accelerate U-space implementation in the EU",
    "u": "https://gutma.org/gutma-recommendations-to-accelerate-u-space-implementation-in-the-eu/",
    "k": "Web",
@@ -37,7 +37,7 @@
   },
   {
    "n": 5,
-   "d": "2026-11-24",
+   "d": "2026-11-25",
    "t": "GUTMA: Global UTM Architecture V1",
    "u": "https://www.gutma.org/docs/Global_UTM_Architecture_V1.pdf",
    "k": "PDF",
@@ -45,7 +45,7 @@
   },
   {
    "n": 6,
-   "d": "2026-11-25",
+   "d": "2026-11-26",
    "t": "Resilient PNT best practice and guidance (RIN)",
    "u": "https://rin.org.uk/mpage/Resilient_PNT",
    "k": "Hub",
@@ -53,7 +53,7 @@
   },
   {
    "n": 7,
-   "d": "2026-11-26",
+   "d": "2026-11-27",
    "t": "Inside GNSS: Inside LEO, LEO PNT, Why Now?",
    "u": "https://insidegnss.com/inside-leo-leo-pnt-why-now/",
    "k": "Web",
@@ -61,7 +61,7 @@
   },
   {
    "n": 8,
-   "d": "2026-11-27",
+   "d": "2026-11-30",
    "t": "Aerospace Technology Institute: Publications archive, page 3",
    "u": "https://www.ati.org.uk/what-we-do/research-innovation/publications/page/3/",
    "k": "Hub",
@@ -69,7 +69,7 @@
   },
   {
    "n": 9,
-   "d": "2026-11-30",
+   "d": "2026-12-01",
    "t": "Army approach to robotic and autonomous systems (RAS)",
    "u": "https://www.army.mod.uk/media/15790/20220126_army-approach-to-ras_final.pdf",
    "k": "PDF",
@@ -77,7 +77,7 @@
   },
   {
    "n": 10,
-   "d": "2026-12-01",
+   "d": "2026-12-02",
    "t": "techUK: MoD Human Machine Teaming (HMT) Framework",
    "u": "https://www.techuk.org/insights/news/ministry-of-defence-human-machine-teaming-hmt-framework",
    "k": "Web",
@@ -85,7 +85,7 @@
   },
   {
    "n": 11,
-   "d": "2026-12-02",
+   "d": "2026-12-03",
    "t": "Advancing Human-Machine Teaming: Concepts, Challenges, and Applications",
    "u": "https://arxiv.org/html/2503.16518v1",
    "k": "Paper",
@@ -93,7 +93,7 @@
   },
   {
    "n": 12,
-   "d": "2026-12-03",
+   "d": "2026-12-04",
    "t": "Small Wars Journal: Building the US Navy's Autonomous Undersea Fleet",
    "u": "https://smallwarsjournal.com/2026/09/21/autonomous-undersea-fleet-us-navy/",
    "k": "Web",
@@ -101,7 +101,7 @@
   },
   {
    "n": 13,
-   "d": "2026-12-04",
+   "d": "2026-12-07",
    "t": "AntarcticGlaciers.org: Uncrewed Aerial Vehicles (UAVs)",
    "u": "https://www.antarcticglaciers.org/glacial-geology/uncrewed-aerial-vehicles-uavs/",
    "k": "Web",
@@ -109,7 +109,7 @@
   },
   {
    "n": 14,
-   "d": "2026-12-07",
+   "d": "2026-12-08",
    "t": "ScienceDaily: Pushing boundaries of drone control for extreme conditions",
    "u": "https://www.sciencedaily.com/releases/2016/11/161122121952.htm",
    "k": "Web",
@@ -117,7 +117,7 @@
   },
   {
    "n": 15,
-   "d": "2026-12-08",
+   "d": "2026-12-09",
    "t": "Berkeley CLTC: Flight to Safety-Critical AI",
    "u": "https://cltc.berkeley.edu/wp-content/uploads/2020/08/Flight-to-Safety-Critical-AI.pdf",
    "k": "PDF",
@@ -125,7 +125,7 @@
   },
   {
    "n": 16,
-   "d": "2026-12-09",
+   "d": "2026-12-10",
    "t": "ICAO: Digitalization, artificial intelligence in aviation and the human factor",
    "u": "https://www.icao.int/sites/default/files/Meetings/a41/Documents/WP/wp_605_en.pdf",
    "k": "PDF",
@@ -133,7 +133,7 @@
   },
   {
    "n": 17,
-   "d": "2026-12-10",
+   "d": "2026-12-11",
    "t": "AI Security Institute: Frontier AI Trends Report",
    "u": "https://www.aisi.gov.uk/frontier-ai-trends-report/pdf",
    "k": "PDF",
@@ -141,7 +141,7 @@
   },
   {
    "n": 18,
-   "d": "2026-12-11",
+   "d": "2026-12-14",
    "t": "Alan Turing Institute: Frontier AI Risks, a practical way forward",
    "u": "https://www.turing.ac.uk/news/publications/frontier-ai-risks-practical-way-forward",
    "k": "Web",
@@ -149,7 +149,7 @@
   },
   {
    "n": 19,
-   "d": "2026-12-14",
+   "d": "2026-12-15",
    "t": "Alan Turing Institute: Defence AI Research (DARE)",
    "u": "https://www.turing.ac.uk/science-innovation/defence-and-national-security/defence-artificial-intelligence-research-dare",
    "k": "Hub",
@@ -157,7 +157,7 @@
   },
   {
    "n": 20,
-   "d": "2026-12-15",
+   "d": "2026-12-16",
    "t": "ai.gov.uk: AI Knowledge Hub",
    "u": "https://ai.gov.uk/knowledge-hub/",
    "k": "Hub",
@@ -165,7 +165,7 @@
   },
   {
    "n": 21,
-   "d": "2026-12-16",
+   "d": "2026-12-17",
    "t": "ai.gov.uk: Insights (Incubator for AI)",
    "u": "https://ai.gov.uk/insights/",
    "k": "Hub",
@@ -173,7 +173,7 @@
   },
   {
    "n": 22,
-   "d": "2026-12-17",
+   "d": "2026-12-18",
    "t": "Modern War Institute: Build at Scale, Innovate at the Edge, Close the Feedback Loop Fast",
    "u": "https://mwi.westpoint.edu/build-at-scale-innovate-at-the-edge-close-the-feedback-loop-fast-transforming-acquisition-for-the-drone-age/",
    "k": "Web",
@@ -181,7 +181,7 @@
   },
   {
    "n": 23,
-   "d": "2026-12-18",
+   "d": "2026-12-21",
    "t": "CEPA: Unleashing Defense Innovation",
    "u": "https://cepa.org/comprehensive-reports/unleashing-defense-innovation/",
    "k": "Report",
@@ -189,7 +189,7 @@
   },
   {
    "n": 24,
-   "d": "2026-12-21",
+   "d": "2026-12-22",
    "t": "CSIS: How Ukraine Rebuilt Its Military Acquisition System Around Commercial Technology",
    "u": "https://www.csis.org/analysis/how-ukraine-rebuilt-its-military-acquisition-system-around-commercial-technology",
    "k": "Web",
@@ -197,7 +197,7 @@
   },
   {
    "n": 25,
-   "d": "2026-12-22",
+   "d": "2026-12-23",
    "t": "CSIS: Unleashing U.S. Military Drone Dominance",
    "u": "https://www.csis.org/analysis/unleashing-us-military-drone-dominance-what-united-states-can-learn-ukraine",
    "k": "Web",
@@ -205,7 +205,7 @@
   },
   {
    "n": 26,
-   "d": "2026-12-23",
+   "d": "2026-12-24",
    "t": "CSIS: Ukraine's Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare",
    "u": "https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare",
    "k": "Web",
@@ -213,7 +213,7 @@
   },
   {
    "n": 27,
-   "d": "2026-12-24",
+   "d": "2026-12-29",
    "t": "CEPA: What Makes Ukrainian Defense Technology So Effective?",
    "u": "https://cepa.org/article/what-makes-ukrainian-defense-technology-so-effective-speed-scale-innovation/",
    "k": "Web",
@@ -221,7 +221,7 @@
   },
   {
    "n": 28,
-   "d": "2026-12-29",
+   "d": "2026-12-30",
    "t": "CSIS: How and Why Ukraine's Military Is Going Digital",
    "u": "https://www.csis.org/analysis/how-and-why-ukraines-military-going-digital",
    "k": "Web",
@@ -229,7 +229,7 @@
   },
   {
    "n": 29,
-   "d": "2026-12-30",
+   "d": "2026-12-31",
    "t": "Chatham House: What Ukraine can teach Europe and the world about innovation in modern warfare",
    "u": "https://www.chathamhouse.org/2025/03/what-ukraine-can-teach-europe-and-world-about-innovation-modern-warfare",
    "k": "Web",
@@ -237,7 +237,7 @@
   },
   {
    "n": 30,
-   "d": "2026-12-31",
+   "d": "2027-01-04",
    "t": "Friends of Europe: Ukraine's wartime innovation is not about drones",
    "u": "https://www.friendsofeurope.org/insights/critical-thinking-ukraines-defence-is-not-about-drones/",
    "k": "Web",
@@ -245,7 +245,7 @@
   },
   {
    "n": 31,
-   "d": "2027-01-04",
+   "d": "2027-01-05",
    "t": "RAND Europe: Wartime innovation and adaptation, supporting Ukraine's digital transformation",
    "u": "https://www.rand.org/randeurope/research/projects/2025/innovation-adaptation-at-war-cm.html",
    "k": "Web",
@@ -253,7 +253,7 @@
   },
   {
    "n": 32,
-   "d": "2027-01-05",
+   "d": "2027-01-06",
    "t": "Small Wars Journal: Ukraine's Lessons for Modern Warfare",
    "u": "https://smallwarsjournal.com/2026/09/23/ukraine-laboratory-of-modern-war/",
    "k": "Web",
@@ -261,7 +261,7 @@
   },
   {
    "n": 33,
-   "d": "2027-01-06",
+   "d": "2027-01-07",
    "t": "RUSI: Preliminary Lessons from Russia's Unconventional Operations, Feb 2022 to Feb 2023",
    "u": "https://static.rusi.org/202303-SR-Unconventional-Operations-Russo-Ukrainian-War-web-final.pdf.pdf",
    "k": "PDF",
@@ -269,7 +269,7 @@
   },
   {
    "n": 34,
-   "d": "2027-01-07",
+   "d": "2027-01-08",
    "t": "RUSI: Winning Without Technological Advantage",
    "u": "https://www.rusi.org/explore-our-research/publications/research-papers/winning-without-technological-advantage",
    "k": "Report",
@@ -277,7 +277,7 @@
   },
   {
    "n": 35,
-   "d": "2027-01-08",
+   "d": "2027-01-11",
    "t": "JAPCC: High Above the High North",
    "u": "https://www.japcc.org/articles/high-above-the-high-north/",
    "k": "Web",
@@ -285,7 +285,7 @@
   },
   {
    "n": 36,
-   "d": "2027-01-11",
+   "d": "2027-01-12",
    "t": "RUSI: The UK and the Future of Arctic and High North Security",
    "u": "https://www.rusi.org/explore-our-research/publications/insights-papers/uk-and-future-arctic-and-high-north-security",
    "k": "Web",
@@ -293,7 +293,7 @@
   },
   {
    "n": 37,
-   "d": "2027-01-12",
+   "d": "2027-01-13",
    "t": "RUSI: Russian Sabotage of NATO Infrastructure",
    "u": "https://www.rusi.org/explore-our-research/publications/insights-papers/russian-sabotage-nato-infrastructure-identifying-alliance-vulnerabilities",
    "k": "Web",
@@ -301,7 +301,7 @@
   },
   {
    "n": 38,
-   "d": "2027-01-13",
+   "d": "2027-01-14",
    "t": "Forbes: Quantum Computing Has Arrived; We Need To Prepare For Its Impact",
    "u": "https://www.forbes.com/sites/chuckbrooks/2025/02/22/quantum-computing-has-arrived-we-need-to-prepare-for-its-impact/",
    "k": "Web",
@@ -309,7 +309,7 @@
   },
   {
    "n": 39,
-   "d": "2027-01-14",
+   "d": "2027-01-15",
    "t": "ESA: Artificial intelligence in space",
    "u": "https://www.esa.int/articles/artificial-intelligence-in-space",
    "k": "Web",
@@ -317,7 +317,7 @@
   },
   {
    "n": 40,
-   "d": "2027-01-15",
+   "d": "2027-01-18",
    "t": "NASA: Super Intelligence",
    "u": "https://www.nasa.gov/super-intelligence/",
    "k": "Web",
@@ -325,7 +325,7 @@
   },
   {
    "n": 41,
-   "d": "2027-01-18",
+   "d": "2027-01-19",
    "t": "Google: Project Suncatcher (ML infrastructure in space)",
    "u": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
    "k": "Web",
@@ -333,7 +333,7 @@
   },
   {
    "n": 42,
-   "d": "2027-01-19",
+   "d": "2027-01-20",
    "t": "Alan Turing Institute: Aemelia (AI-enabled satellite inference from ISAR data)",
    "u": "https://www.turing.ac.uk/research/research-projects/aemelia",
    "k": "Web",
@@ -341,7 +341,7 @@
   },
   {
    "n": 43,
-   "d": "2027-01-20",
+   "d": "2027-01-21",
    "t": "PubMed: Procedural skill retention and decay, a meta-analytic review",
    "u": "https://pubmed.ncbi.nlm.nih.gov/40455501/",
    "k": "Paper",
@@ -349,7 +349,7 @@
   },
   {
    "n": 44,
-   "d": "2027-01-21",
+   "d": "2027-01-22",
    "t": "PubMed: Beyond 'use it or lose it', retention of competence",
    "u": "https://pubmed.ncbi.nlm.nih.gov/41025900/",
    "k": "Paper",
@@ -357,7 +357,7 @@
   },
   {
    "n": 45,
-   "d": "2027-01-22",
+   "d": "2027-01-25",
    "t": "NATO STO-TR-HFM-292",
    "u": "https://publications.sto.nato.int/publications/STO%20Technical%20Reports/STO-TR-HFM-292/$$TR-HFM-292-ALL.pdf",
    "k": "PDF",
@@ -365,7 +365,7 @@
   },
   {
    "n": 46,
-   "d": "2027-01-25",
+   "d": "2027-01-26",
    "t": "Block: From Hierarchy to Intelligence",
    "u": "https://block.xyz/inside/from-hierarchy-to-intelligence",
    "k": "Web",
@@ -373,7 +373,7 @@
   },
   {
    "n": 47,
-   "d": "2027-01-26",
+   "d": "2027-01-27",
    "t": "Futurism: Jack Dorsey Isn't Telling the Real Story About Block's AI Layoffs, Insider Says",
    "u": "https://futurism.com/artificial-intelligence/jack-dorsey-block-ai-layoffs-insider",
    "k": "Web",
@@ -381,7 +381,7 @@
   },
   {
    "n": 48,
-   "d": "2027-01-27",
+   "d": "2027-01-28",
    "t": "MIT Professional Education: The Role of a Chief Technology Officer",
    "u": "https://professionalprograms.mit.edu/blog/leadership/chief-technology-officer/",
    "k": "Web",
@@ -389,7 +389,7 @@
   },
   {
    "n": 49,
-   "d": "2027-01-28",
+   "d": "2027-01-29",
    "t": "The Voice in the Machine: Research Is Not Engineering at a Slower Speed",
    "u": "https://voiceinthemachine.com/2026/06/10/research-is-not-engineering-at-a-slower-speed/",
    "k": "Web",
@@ -397,7 +397,7 @@
   },
   {
    "n": 50,
-   "d": "2027-01-29",
+   "d": "2027-02-01",
    "t": "Free Range Ocean: Citizen Science Ocean Project Directory",
    "u": "https://www.freerangeocean.org/citizen-science-ocean-project-finder",
    "k": "Hub",
@@ -405,7 +405,7 @@
   },
   {
    "n": 51,
-   "d": "2027-02-01",
+   "d": "2027-02-02",
    "t": "The Polar Collective",
    "u": "https://www.polarcollective.org/",
    "k": "Hub",
@@ -413,7 +413,7 @@
   },
   {
    "n": 52,
-   "d": "2027-02-02",
+   "d": "2027-02-03",
    "t": "Explorers Connect: Two teammates needed for High Arctic Expedition leaving 30th June",
    "u": "https://www.explorersconnect.com/inspire-stories/2026/5/28/two-teammates-needed-for-high-arctic-expedition-leaving-30th-june",
    "k": "Web",
@@ -421,7 +421,7 @@
   },
   {
    "n": 53,
-   "d": "2027-02-03",
+   "d": "2027-02-04",
    "t": "idrottsforum.org: Book review, The Psychology of Enhancing Human Performance (mindfulness-acceptance-commitment approach)",
    "u": "https://www.idrottsforum.org/reviews/items12/lemhen_gardner-moore.html",
    "k": "Web",
@@ -429,7 +429,7 @@
   },
   {
    "n": 54,
-   "d": "2027-02-04",
+   "d": "2027-02-05",
    "t": "Runner's World UK: Glute activation, 5 glute exercises for runners",
    "u": "https://www.runnersworld.com/uk/training/cross-training/a773632/glute-activation-exercises/",
    "k": "Web",
@@ -437,7 +437,7 @@
   },
   {
    "n": 55,
-   "d": "2027-02-05",
+   "d": "2027-02-08",
    "t": "Claude's Learning Mode Actually Works, I Tested It as a Personal Tutor (AI in Plain English)",
    "u": "https://ai.plainenglish.io/claudes-learning-mode-actually-works-i-tested-it-as-a-personal-tutor-276a05067c49",
    "k": "Web",
@@ -445,7 +445,7 @@
   },
   {
    "n": 56,
-   "d": "2027-02-08",
+   "d": "2027-02-09",
    "t": "Alan Turing Institute: It's not just business, AI risks, rewards and responsibilities",
    "u": "https://www.turing.ac.uk/courses/its-not-just-business-ai-risks-rewards-and-responsibilities",
    "k": "Course",
@@ -453,7 +453,7 @@
   },
   {
    "n": 57,
-   "d": "2027-02-09",
+   "d": "2027-02-10",
    "t": "Alan Turing Institute: Data science and AI careers, a spotlight series",
    "u": "https://www.turing.ac.uk/opportunities-turing/data-science-and-ai-careers-spotlight-series",
    "k": "Web",
@@ -461,7 +461,7 @@
   },
   {
    "n": 58,
-   "d": "2027-02-10",
+   "d": "2027-02-11",
    "t": "Office for Students: Postgraduate conversion courses in data science and AI",
    "u": "https://www.officeforstudents.org.uk/for-providers/student-protection-and-choice/postgraduate-conversion-courses-in-data-science-and-artificial-intelligence/",
    "k": "Web",
@@ -469,7 +469,7 @@
   },
   {
    "n": 59,
-   "d": "2027-02-11",
+   "d": "2027-02-12",
    "t": "Elements of AI (free introduction for non-experts)",
    "u": "https://www.elementsofai.com/",
    "k": "Course",
@@ -477,7 +477,7 @@
   },
   {
    "n": 60,
-   "d": "2027-02-12",
+   "d": "2027-02-15",
    "t": "AI for Beginners (Microsoft)",
    "u": "https://microsoft.github.io/AI-For-Beginners/#/",
    "k": "Course",
@@ -485,7 +485,7 @@
   },
   {
    "n": 61,
-   "d": "2027-02-15",
+   "d": "2027-02-16",
    "t": "arXiv 2606.03673 (no title in your email)",
    "u": "https://arxiv.org/pdf/2606.03673",
    "k": "PDF",
@@ -493,7 +493,7 @@
   },
   {
    "n": 62,
-   "d": "2027-02-16",
+   "d": "2027-02-17",
    "t": "NASA NTRS 20140010819, saved as 'PowerPoint Presentation'",
    "u": "https://ntrs.nasa.gov/api/citations/20140010819/downloads/20140010819.pdf",
    "k": "PDF",
@@ -501,7 +501,7 @@
   },
   {
    "n": 63,
-   "d": "2027-02-17",
+   "d": "2027-02-18",
    "t": "Springer PDF 10.1007/s10111-026-00888-z (no title in your email)",
    "u": "https://link.springer.com/content/pdf/10.1007/s10111-026-00888-z.pdf",
    "k": "PDF",
@@ -509,7 +509,7 @@
   },
   {
    "n": 64,
-   "d": "2027-02-18",
+   "d": "2027-02-19",
    "t": "Calculating Empires (interactive site)",
    "u": "https://calculatingempires.net/",
    "k": "Web",
@@ -517,7 +517,7 @@
   },
   {
    "n": 65,
-   "d": "2027-02-19",
+   "d": "2027-02-22",
    "t": "Team Optimization from Sabotage (a shared ChatGPT conversation, not an article)",
    "u": "https://chatgpt.com/share/6a1ea673-0f50-83e8-8f3f-9a7109d8a4b8",
    "k": "Chat",
@@ -525,7 +525,7 @@
   },
   {
    "n": 66,
-   "d": "2027-02-22",
+   "d": "2027-02-23",
    "t": "Google search: how to apply transactional analysis (a search page, not a resource)",
    "u": "https://www.google.com/search?q=how+to+apply+transactional+analysis&hl=en-gb",
    "k": "Search",
