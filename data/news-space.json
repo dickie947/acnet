@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-17T06:42:26Z",
+ "updated": "2026-11-19T06:42:32Z",
  "items": [
+  {
+   "t": "NASA, SpaceX Stand Down from Dragon's Undocking on Wednesday",
+   "u": "https://nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday",
+   "s": "nasa.gov",
+   "d": "2026-11-18",
+   "f": "2026-11-19T06:42:32Z"
+  },
+  {
+   "t": "Supernova explodes before astronomers' eyes",
+   "u": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+   "s": "space.com",
+   "d": "2026-11-18",
+   "f": "2026-11-19T06:42:32Z"
+  },
+  {
+   "t": "Euclid space telescope discovers its 1st comet",
+   "u": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026",
+   "s": "space.com",
+   "d": "2026-11-16",
+   "f": "2026-11-19T06:42:32Z"
+  },
   {
    "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
    "u": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt",
@@ -30,13 +51,6 @@
    "f": "2026-11-10T06:42:52Z"
   },
   {
-   "t": "Leicester's National Space Centre Discovery Team wins Sir Arthur Clarke Award",
-   "u": "https://www.adsadvance.co.uk/leicester-national-space-centre-arthur-clarke-award/",
-   "s": "adsadvance.co.uk",
-   "d": "2026-11-05",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
    "t": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
    "u": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
    "s": "sciencedaily.com",
@@ -51,18 +65,11 @@
    "f": "2026-11-09T06:42:43Z"
   },
   {
-   "d": "2026-11-04",
-   "f": "2026-11-05T06:42:29Z",
-   "s": "esa.int",
-   "t": "Geological intuition for Mars",
-   "u": "https://blogs.esa.int/to-mars-and-back/2026/11/04/geological-intuition-for-mars/"
-  },
-  {
-   "d": "2026-11-04",
-   "f": "2026-11-05T06:42:29Z",
-   "s": "space.com",
-   "t": "The Taurid meteor shower peaks Nov.4-5 — and fireballs could steal the show",
-   "u": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show"
+   "t": "Leicester's National Space Centre Discovery Team wins Sir Arthur Clarke Award",
+   "u": "https://www.adsadvance.co.uk/leicester-national-space-centre-arthur-clarke-award/",
+   "s": "adsadvance.co.uk",
+   "d": "2026-11-05",
+   "f": "2026-11-07T12:38:33Z"
   },
   {
    "t": "Astroscale and OHB to collaborate on space security",
@@ -79,10 +86,31 @@
    "f": "2026-11-07T12:38:33Z"
   },
   {
+   "d": "2026-11-04",
+   "f": "2026-11-05T06:42:29Z",
+   "s": "esa.int",
+   "t": "Geological intuition for Mars",
+   "u": "https://blogs.esa.int/to-mars-and-back/2026/11/04/geological-intuition-for-mars/"
+  },
+  {
+   "d": "2026-11-04",
+   "f": "2026-11-05T06:42:29Z",
+   "s": "space.com",
+   "t": "The Taurid meteor shower peaks Nov.4-5 — and fireballs could steal the show",
+   "u": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show"
+  },
+  {
    "t": "QinetiQ to support Government's tech talent drive",
    "u": "https://www.adsadvance.co.uk/qinetiq-support-governments-tech-talent-drive/",
    "s": "adsadvance.co.uk",
    "d": "2026-11-03",
+   "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "Launch Preview: Falcon 9 to launch USSF missions, China to launch internet satellites",
+   "u": "https://www.nasaspaceflight.com/2026/11/launch-preview-110226/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-11-02",
    "f": "2026-11-07T12:38:33Z"
   },
   {
@@ -128,13 +156,6 @@
    "u": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm"
   },
   {
-   "t": "Launch Preview: Falcon 9 to launch USSF missions, China to launch internet satellites",
-   "u": "https://www.nasaspaceflight.com/2026/11/launch-preview-110226/",
-   "s": "nasaspaceflight.com",
-   "d": "2026-11-02",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
    "d": "2026-11-01",
    "f": "2026-11-02T17:45:00Z",
    "s": "sciencedaily.com",
@@ -153,6 +174,27 @@
    "u": "https://www.adsadvance.co.uk/space-cybersecurity-satellite-supply-chain-risks/",
    "s": "adsadvance.co.uk",
    "d": "2026-10-31",
+   "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "Plextek receives King's Award for Enterprise in Innovation",
+   "u": "https://www.adsadvance.co.uk/plextek-receives-kings-award-for-enterprise-in-innovation/",
+   "s": "adsadvance.co.uk",
+   "d": "2026-10-30",
+   "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "UK sets out plans for quantum technology in space, with secure satellites and navigation as priorities",
+   "u": "https://www.adsadvance.co.uk/uk-quantum-technology-space-roadmap/",
+   "s": "adsadvance.co.uk",
+   "d": "2026-10-30",
+   "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "SaxaVord finalises £60m funding for rocket launches",
+   "u": "https://www.adsadvance.co.uk/saxavord-finalises-60m-funding-for-rocket-launches/",
+   "s": "adsadvance.co.uk",
+   "d": "2026-10-30",
    "f": "2026-11-07T12:38:33Z"
   },
   {
@@ -191,24 +233,10 @@
    "u": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm"
   },
   {
-   "t": "Plextek receives King's Award for Enterprise in Innovation",
-   "u": "https://www.adsadvance.co.uk/plextek-receives-kings-award-for-enterprise-in-innovation/",
+   "t": "UK awards Astroscale £15m contract to develop orbital defence capabilities",
+   "u": "https://www.adsadvance.co.uk/uk-mod-astroscale-project-leda-space-contract/",
    "s": "adsadvance.co.uk",
-   "d": "2026-10-30",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
-   "t": "UK sets out plans for quantum technology in space, with secure satellites and navigation as priorities",
-   "u": "https://www.adsadvance.co.uk/uk-quantum-technology-space-roadmap/",
-   "s": "adsadvance.co.uk",
-   "d": "2026-10-30",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
-   "t": "SaxaVord finalises £60m funding for rocket launches",
-   "u": "https://www.adsadvance.co.uk/saxavord-finalises-60m-funding-for-rocket-launches/",
-   "s": "adsadvance.co.uk",
-   "d": "2026-10-30",
+   "d": "2026-10-29",
    "f": "2026-11-07T12:38:33Z"
   },
   {
@@ -254,10 +282,17 @@
    "u": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm"
   },
   {
-   "t": "UK awards Astroscale £15m contract to develop orbital defence capabilities",
-   "u": "https://www.adsadvance.co.uk/uk-mod-astroscale-project-leda-space-contract/",
+   "t": "Astroscale awarded £15m MOD contract as UK Government strengthens focus on resilience in space",
+   "u": "https://www.ukspace.org/astroscale-awarded-15m-mod-contract-as-uk-government-strengthens-focus-on-resilience-in-space/",
+   "s": "ukspace.org",
+   "d": "2026-10-28",
+   "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "Airbus awarded contract for additional Galileo satellites",
+   "u": "https://www.adsadvance.co.uk/airbus-contract-additional-galileo-satellites/",
    "s": "adsadvance.co.uk",
-   "d": "2026-10-29",
+   "d": "2026-10-28",
    "f": "2026-11-07T12:38:33Z"
   },
   {
@@ -287,20 +322,6 @@
    "s": "sciencedaily.com",
    "t": "NASA's Artemis I Mission Reveals Surprising Radiation Levels Near the Moon",
    "u": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm"
-  },
-  {
-   "t": "Astroscale awarded £15m MOD contract as UK Government strengthens focus on resilience in space",
-   "u": "https://www.ukspace.org/astroscale-awarded-15m-mod-contract-as-uk-government-strengthens-focus-on-resilience-in-space/",
-   "s": "ukspace.org",
-   "d": "2026-10-28",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
-   "t": "Airbus awarded contract for additional Galileo satellites",
-   "u": "https://www.adsadvance.co.uk/airbus-contract-additional-galileo-satellites/",
-   "s": "adsadvance.co.uk",
-   "d": "2026-10-28",
-   "f": "2026-11-07T12:38:33Z"
   },
   {
    "d": "2026-10-27",
@@ -352,6 +373,13 @@
    "f": "2026-11-07T12:38:33Z"
   },
   {
+   "t": "Launch Preview: H3, Falcon 9, Electron, and others to launch during busy week",
+   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-102026/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-10-20",
+   "f": "2026-11-08T06:37:33Z"
+  },
+  {
    "d": "2026-10-20",
    "f": "2026-11-02T17:45:00Z",
    "s": "esa.int",
@@ -364,13 +392,6 @@
    "s": "esa.int",
    "t": "Welcoming MetOp-SG-B1 to French Guiana",
    "u": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/MetOp-SG-B1_weather_satellite_arrives_at_Europe_s_Spaceport"
-  },
-  {
-   "t": "Launch Preview: H3, Falcon 9, Electron, and others to launch during busy week",
-   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-102026/",
-   "s": "nasaspaceflight.com",
-   "d": "2026-10-20",
-   "f": "2026-11-08T06:37:33Z"
   },
   {
    "d": "2026-10-19",
@@ -401,6 +422,13 @@
    "u": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Moon_Explore_sprinter_missions"
   },
   {
+   "t": "Olsen accelerates engineering growth with northwest expansion",
+   "u": "https://www.ukspace.org/olsen-accelerates-engineering-growth-with-northwest-expansion/",
+   "s": "ukspace.org",
+   "d": "2026-10-15",
+   "f": "2026-11-07T12:38:33Z"
+  },
+  {
    "d": "2026-10-15",
    "f": "2026-11-02T17:45:00Z",
    "s": "gov.uk",
@@ -415,11 +443,11 @@
    "u": "https://space.blog.gov.uk/2026/10/15/name-the-uk-space-agencys-first-national-mission-%f0%9f%9b%b0%ef%b8%8f%f0%9f%8c%8d/"
   },
   {
-   "t": "Olsen accelerates engineering growth with northwest expansion",
-   "u": "https://www.ukspace.org/olsen-accelerates-engineering-growth-with-northwest-expansion/",
-   "s": "ukspace.org",
-   "d": "2026-10-15",
-   "f": "2026-11-07T12:38:33Z"
+   "t": "Launch Preview: Falcon 9, ZhuQue-2E to launch during quiet week",
+   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-10-13",
+   "f": "2026-11-08T06:37:33Z"
   },
   {
    "d": "2026-10-13",
@@ -436,18 +464,18 @@
    "u": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
   },
   {
-   "t": "Launch Preview: Falcon 9, ZhuQue-2E to launch during quiet week",
-   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/",
-   "s": "nasaspaceflight.com",
-   "d": "2026-10-13",
-   "f": "2026-11-08T06:37:33Z"
-  },
-  {
    "d": "2026-10-12",
    "f": "2026-11-02T17:45:00Z",
    "s": "esa.int",
    "t": "ExoMars rover twin rehearses first drive",
    "u": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive"
+  },
+  {
+   "t": "GMV field tests new ESA software in Fuerteventura: a giant leap for rover speed",
+   "u": "https://www.ukspace.org/gmv-field-tests-new-esa-software-in-fuerteventura-lunar-rover/",
+   "s": "ukspace.org",
+   "d": "2026-10-08",
+   "f": "2026-11-07T12:38:33Z"
   },
   {
    "d": "2026-10-08",
@@ -471,13 +499,6 @@
    "u": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Introducing_ESA_s_Earth_Virtual_Expert"
   },
   {
-   "t": "GMV field tests new ESA software in Fuerteventura: a giant leap for rover speed",
-   "u": "https://www.ukspace.org/gmv-field-tests-new-esa-software-in-fuerteventura-lunar-rover/",
-   "s": "ukspace.org",
-   "d": "2026-10-08",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
    "d": "2026-10-07",
    "f": "2026-11-02T17:45:00Z",
    "s": "esa.int",
@@ -489,8 +510,7 @@
   "nasa.gov",
   "sciencedaily.com",
   "esa.int (3 pages)",
-  "nasa.gov ISS news",
-  "space.com",
+  "space.com feed",
   "spacenews.com",
   "gov.uk UK Space Agency",
   "ukspace.org",
