@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T06:42:32Z",
+ "updated": "2026-11-20T06:42:50Z",
  "items": [
   {
    "t": "NASA, SpaceX Stand Down from Dragon's Undocking on Wednesday",
@@ -21,6 +21,20 @@
    "s": "space.com",
    "d": "2026-11-16",
    "f": "2026-11-19T06:42:32Z"
+  },
+  {
+   "t": "Launch Preview: Ariane 6 to launch Amazon satellites, Falcon 9 to launch government missions",
+   "u": "https://www.nasaspaceflight.com/2026/11/launch-preview-111626/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-11-16",
+   "f": "2026-11-20T06:42:50Z"
+  },
+  {
+   "t": "Relativity tests Terran R second stage, completes structural qualifications ahead of inaugural launch",
+   "u": "https://www.nasaspaceflight.com/2026/11/relativity-update-1116/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-11-16",
+   "f": "2026-11-20T06:42:50Z"
   },
   {
    "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
@@ -366,6 +380,13 @@
    "u": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings"
   },
   {
+   "t": "Launch Preview: Falcon 9 and GSLV rockets scheduled to launch",
+   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-102626/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-10-26",
+   "f": "2026-11-20T06:42:50Z"
+  },
+  {
    "t": "First Light Fusion selected by Dstl to deliver Hypervelocity Impact Research Programme",
    "u": "https://www.ukspace.org/first-light-fusion-selected-by-dstl-to-deliver-hypervelocity-impact-research-programme/",
    "s": "ukspace.org",
@@ -509,11 +530,12 @@
  "failed": [
   "nasa.gov",
   "sciencedaily.com",
-  "esa.int (3 pages)",
-  "space.com feed",
+  "esa.int",
+  "space.com",
   "spacenews.com",
-  "gov.uk UK Space Agency",
+  "gov.uk/uk-space-agency",
   "ukspace.org",
-  "adsadvance.co.uk"
+  "adsadvance.co.uk",
+  "nasa.gov ISS news"
  ]
 }
