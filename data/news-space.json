@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:42:22Z",
+ "updated": "2026-11-22T06:42:14Z",
  "items": [
   {
    "t": "NASA, SpaceX Stand Down from Dragon's Undocking on Wednesday",
@@ -518,13 +518,6 @@
    "s": "esa.int",
    "t": "Introducing ESA's Earth Virtual Expert",
    "u": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Introducing_ESA_s_Earth_Virtual_Expert"
-  },
-  {
-   "d": "2026-10-07",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Mars's oddest cloud may be even odder than we thought",
-   "u": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought"
   }
  ],
  "failed": [
