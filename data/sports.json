@@ -159,12 +159,12 @@
   "podium": null,
   "podiumLabel": null,
   "score": "FT  CRY 1 - 3 LFC",
-  "source": "LIVERPOOLFC.COM / BESOCCER / SPORTS MOLE",
+  "source": "FOX SPORTS / LIVERPOOLFC.COM",
   "table": [
    [
     "ARSENAL",
-    "10",
-    "27"
+    "11",
+    "28"
    ],
    [
     "BRIGHTON & HOVE ALBION",
@@ -173,8 +173,13 @@
    ],
    [
     "MANCHESTER CITY",
-    "10",
-    "21"
+    "11",
+    "22"
+   ],
+   [
+    "AFC BOURNEMOUTH",
+    "11",
+    "18"
    ],
    [
     "LIVERPOOL",
@@ -183,9 +188,9 @@
     "hl"
    ],
    [
-    "CHELSEA",
-    "10",
-    "16"
+    "LEEDS UNITED",
+    "11",
+    "17"
    ],
    [
     "EVERTON",
@@ -193,8 +198,13 @@
     "16"
    ],
    [
-    "AFC BOURNEMOUTH",
-    "10",
+    "CHELSEA",
+    "11",
+    "16"
+   ],
+   [
+    "TOTTENHAM HOTSPUR",
+    "11",
     "15"
    ],
    [
@@ -203,23 +213,18 @@
     "14"
    ],
    [
-    "LEEDS UNITED",
-    "10",
+    "ASTON VILLA",
+    "11",
     "14"
    ],
    [
-    "ASTON VILLA",
-    "10",
+    "NEWCASTLE UNITED",
+    "11",
     "13"
    ],
    [
-    "TOTTENHAM HOTSPUR",
-    "10",
-    "12"
-   ],
-   [
-    "NEWCASTLE UNITED",
-    "10",
+    "COVENTRY CITY",
+    "11",
     "12"
    ],
    [
@@ -228,23 +233,23 @@
     "11"
    ],
    [
-    "IPSWICH TOWN",
-    "10",
+    "FULHAM",
+    "11",
     "11"
    ],
    [
-    "FULHAM",
-    "10",
-    "10"
+    "IPSWICH TOWN",
+    "11",
+    "11"
    ],
    [
     "NOTTINGHAM FOREST",
-    "10",
+    "11",
     "9"
    ],
    [
-    "COVENTRY CITY",
-    "10",
+    "SUNDERLAND",
+    "11",
     "9"
    ],
    [
@@ -253,17 +258,12 @@
     "8"
    ],
    [
-    "SUNDERLAND",
-    "10",
-    "8"
-   ],
-   [
     "CRYSTAL PALACE",
-    "10",
+    "11",
     "7"
    ]
   ],
   "tableLabel": "PREMIER LEAGUE  (PLD / PTS)",
-  "updated": "2026-11-14T06:45:00Z"
+  "updated": "2026-11-22T06:50:00Z"
  }
 }
