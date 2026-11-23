@@ -1,50 +1,50 @@
 {
  "f1": {
   "last": [
-   "SAO PAULO GRAND PRIX",
-   "08 Nov 2026",
-   "Interlagos, Brazil"
-  ],
-  "next": [
    "LAS VEGAS GRAND PRIX",
    "22 Nov 2026",
    "Las Vegas, USA"
   ],
+  "next": [
+   "QATAR GRAND PRIX",
+   "29 Nov 2026",
+   "Lusail, Qatar"
+  ],
   "podium": [
-   "NORRIS (MCLAREN)",
    "VERSTAPPEN (RED BULL)",
-   "HADJAR (RED BULL)"
+   "NORRIS (MCLAREN)",
+   "PIASTRI (MCLAREN)"
   ],
   "podiumLabel": "LAST RACE PODIUM",
   "source": "RACINGNEWS365",
   "table": [
    [
     "ANTONELLI",
-    "390"
+    "402"
    ],
    [
     "VERSTAPPEN",
-    "279"
-   ],
-   [
-    "RUSSELL",
-    "262"
+    "304"
    ],
    [
     "HAMILTON",
-    "261"
+    "267"
    ],
    [
-    "LECLERC",
-    "249"
+    "RUSSELL",
+    "264"
    ],
    [
     "NORRIS",
-    "246"
+    "264"
+   ],
+   [
+    "LECLERC",
+    "250"
    ],
    [
     "PIASTRI",
-    "152"
+    "167"
    ],
    [
     "HADJAR",
@@ -56,11 +56,11 @@
    ],
    [
     "GASLY",
-    "42"
+    "52"
    ]
   ],
   "tableLabel": "DRIVERS CHAMPIONSHIP",
-  "updated": "2026-11-09T07:00:00Z"
+  "updated": "2026-11-23T06:45:00Z"
  },
  "wec": {
   "last": [
@@ -70,7 +70,7 @@
   ],
   "next": [
    "QATAR 1812KM (2027 OPENER)",
-   "MAR 2027 (TBC)",
+   "25-27 Mar 2027",
    "Qatar"
   ],
   "podium": [
@@ -79,7 +79,7 @@
    "#51 FERRARI"
   ],
   "podiumLabel": "LAST RACE PODIUM",
-  "source": "FIAWEC.COM / RACINGNEWS365 / RACER.COM",
+  "source": "FIAWEC.COM / PITDEBRIEF.COM",
   "table": [
    [
     "TOYOTA",
@@ -115,7 +115,7 @@
    ]
   ],
   "tableLabel": "MANUFACTURERS (AFTER R8 MONZA)",
-  "updated": "2026-11-14T06:45:00Z"
+  "updated": "2026-11-23T06:45:00Z"
  },
  "ac": {
   "last": [
