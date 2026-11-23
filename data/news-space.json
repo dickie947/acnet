@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-22T06:42:14Z",
+ "updated": "2026-11-23T06:45:00Z",
  "items": [
+  {
+   "t": "Watch live on Nov. 23: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure",
+   "u": "https://space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch",
+   "s": "space.com",
+   "d": "2026-11-23",
+   "f": "2026-11-23T06:45:00Z"
+  },
+  {
+   "t": "Dragon Undocks from Station Packed With Science and Cargo",
+   "u": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+   "s": "nasa.gov",
+   "d": "2026-11-20",
+   "f": "2026-11-23T06:45:00Z"
+  },
+  {
+   "t": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/19/science-and-suits-fill-schedule-as-crew-preps-for-cargo-missions/",
+   "s": "nasa.gov",
+   "d": "2026-11-19",
+   "f": "2026-11-23T06:45:00Z"
+  },
   {
    "t": "NASA, SpaceX Stand Down from Dragon's Undocking on Wednesday",
    "u": "https://nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday",
@@ -14,6 +35,13 @@
    "s": "space.com",
    "d": "2026-11-18",
    "f": "2026-11-19T06:42:32Z"
+  },
+  {
+   "t": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "s": "nasa.gov",
+   "d": "2026-11-18",
+   "f": "2026-11-23T06:45:00Z"
   },
   {
    "t": "Euclid space telescope discovers its 1st comet",
@@ -35,6 +63,13 @@
    "s": "nasaspaceflight.com",
    "d": "2026-11-16",
    "f": "2026-11-20T06:42:50Z"
+  },
+  {
+   "t": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
+   "s": "nasa.gov",
+   "d": "2026-11-16",
+   "f": "2026-11-23T06:45:00Z"
   },
   {
    "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
@@ -86,6 +121,13 @@
    "f": "2026-11-07T12:38:33Z"
   },
   {
+   "t": "Astronauts Suit Up for Final Power Upgrade Spacewalk",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/05/astronauts-suit-up-for-final-power-upgrade-spacewalk/",
+   "s": "nasa.gov",
+   "d": "2026-11-05",
+   "f": "2026-11-23T06:45:00Z"
+  },
+  {
    "t": "Astroscale and OHB to collaborate on space security",
    "u": "https://www.adsadvance.co.uk/astroscale-and-ohb-to-collaborate-on-space-security/",
    "s": "adsadvance.co.uk",
@@ -114,11 +156,25 @@
    "u": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show"
   },
   {
+   "t": "Astronauts are Go for Final Power Upgrade Spacewalk",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/04/astronauts-are-go-for-final-power-upgrade-spacewalk/",
+   "s": "nasa.gov",
+   "d": "2026-11-04",
+   "f": "2026-11-23T06:45:00Z"
+  },
+  {
    "t": "QinetiQ to support Government's tech talent drive",
    "u": "https://www.adsadvance.co.uk/qinetiq-support-governments-tech-talent-drive/",
    "s": "adsadvance.co.uk",
    "d": "2026-11-03",
    "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "Crew Keeps Up Spacewalk Preps, Research, and Cargo Operations",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/",
+   "s": "nasa.gov",
+   "d": "2026-11-03",
+   "f": "2026-11-23T06:45:00Z"
   },
   {
    "t": "Launch Preview: Falcon 9 to launch USSF missions, China to launch internet satellites",
@@ -168,6 +224,13 @@
    "s": "sciencedaily.com",
    "t": "NASA's Perseverance Mars Rover Breaks Historic Record After Traveling 28 Miles",
    "u": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm"
+  },
+  {
+   "t": "Week Starts with Spacewalk Preps and Life Science",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
+   "s": "nasa.gov",
+   "d": "2026-11-02",
+   "f": "2026-11-23T06:45:00Z"
   },
   {
    "d": "2026-11-01",
@@ -490,45 +553,16 @@
    "s": "esa.int",
    "t": "ExoMars rover twin rehearses first drive",
    "u": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive"
-  },
-  {
-   "t": "GMV field tests new ESA software in Fuerteventura: a giant leap for rover speed",
-   "u": "https://www.ukspace.org/gmv-field-tests-new-esa-software-in-fuerteventura-lunar-rover/",
-   "s": "ukspace.org",
-   "d": "2026-10-08",
-   "f": "2026-11-07T12:38:33Z"
-  },
-  {
-   "d": "2026-10-08",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
-   "u": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
-  },
-  {
-   "d": "2026-10-08",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Italy and beyond imaged by Sentinel-3C",
-   "u": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth"
-  },
-  {
-   "d": "2026-10-08",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Introducing ESA's Earth Virtual Expert",
-   "u": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Introducing_ESA_s_Earth_Virtual_Expert"
   }
  ],
  "failed": [
   "nasa.gov",
   "sciencedaily.com",
   "esa.int",
-  "space.com",
+  "space.com feed",
   "spacenews.com",
-  "gov.uk/uk-space-agency",
+  "gov.uk UK Space Agency",
   "ukspace.org",
-  "adsadvance.co.uk",
-  "nasa.gov ISS news"
+  "adsadvance.co.uk"
  ]
 }
