@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T06:45:00Z",
+ "updated": "2026-11-24T06:42:44Z",
  "items": [
   {
    "t": "Watch live on Nov. 23: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure",
@@ -23,6 +23,13 @@
    "f": "2026-11-23T06:45:00Z"
   },
   {
+   "t": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "s": "nasa.gov",
+   "d": "2026-11-18",
+   "f": "2026-11-23T06:45:00Z"
+  },
+  {
    "t": "NASA, SpaceX Stand Down from Dragon's Undocking on Wednesday",
    "u": "https://nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday",
    "s": "nasa.gov",
@@ -37,18 +44,11 @@
    "f": "2026-11-19T06:42:32Z"
   },
   {
-   "t": "NASA, SpaceX Prepare for Dragon Undocking as Science Packing Continues",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-prepare-for-dragon-undocking-as-science-packing-continues/",
+   "t": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
    "s": "nasa.gov",
-   "d": "2026-11-18",
-   "f": "2026-11-23T06:45:00Z"
-  },
-  {
-   "t": "Euclid space telescope discovers its 1st comet",
-   "u": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026",
-   "s": "space.com",
    "d": "2026-11-16",
-   "f": "2026-11-19T06:42:32Z"
+   "f": "2026-11-23T06:45:00Z"
   },
   {
    "t": "Launch Preview: Ariane 6 to launch Amazon satellites, Falcon 9 to launch government missions",
@@ -65,11 +65,11 @@
    "f": "2026-11-20T06:42:50Z"
   },
   {
-   "t": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
-   "s": "nasa.gov",
+   "t": "Euclid space telescope discovers its 1st comet",
+   "u": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026",
+   "s": "space.com",
    "d": "2026-11-16",
-   "f": "2026-11-23T06:45:00Z"
+   "f": "2026-11-19T06:42:32Z"
   },
   {
    "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
@@ -100,6 +100,13 @@
    "f": "2026-11-10T06:42:52Z"
   },
   {
+   "t": "Astronauts Suit Up for Final Power Upgrade Spacewalk",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/05/astronauts-suit-up-for-final-power-upgrade-spacewalk/",
+   "s": "nasa.gov",
+   "d": "2026-11-05",
+   "f": "2026-11-23T06:45:00Z"
+  },
+  {
    "t": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
    "u": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
    "s": "sciencedaily.com",
@@ -121,10 +128,10 @@
    "f": "2026-11-07T12:38:33Z"
   },
   {
-   "t": "Astronauts Suit Up for Final Power Upgrade Spacewalk",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/05/astronauts-suit-up-for-final-power-upgrade-spacewalk/",
+   "t": "Astronauts are Go for Final Power Upgrade Spacewalk",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/04/astronauts-are-go-for-final-power-upgrade-spacewalk/",
    "s": "nasa.gov",
-   "d": "2026-11-05",
+   "d": "2026-11-04",
    "f": "2026-11-23T06:45:00Z"
   },
   {
@@ -156,10 +163,10 @@
    "u": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show"
   },
   {
-   "t": "Astronauts are Go for Final Power Upgrade Spacewalk",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/04/astronauts-are-go-for-final-power-upgrade-spacewalk/",
+   "t": "Crew Keeps Up Spacewalk Preps, Research, and Cargo Operations",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/",
    "s": "nasa.gov",
-   "d": "2026-11-04",
+   "d": "2026-11-03",
    "f": "2026-11-23T06:45:00Z"
   },
   {
@@ -170,10 +177,10 @@
    "f": "2026-11-07T12:38:33Z"
   },
   {
-   "t": "Crew Keeps Up Spacewalk Preps, Research, and Cargo Operations",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/03/crew-keeps-up-spacewalk-preps-research-and-cargo-operations/",
+   "t": "Week Starts with Spacewalk Preps and Life Science",
+   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
    "s": "nasa.gov",
-   "d": "2026-11-03",
+   "d": "2026-11-02",
    "f": "2026-11-23T06:45:00Z"
   },
   {
@@ -224,13 +231,6 @@
    "s": "sciencedaily.com",
    "t": "NASA's Perseverance Mars Rover Breaks Historic Record After Traveling 28 Miles",
    "u": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm"
-  },
-  {
-   "t": "Week Starts with Spacewalk Preps and Life Science",
-   "u": "https://www.nasa.gov/blogs/spacestation/2026/11/02/week-starts-with-spacewalk-preps-and-life-science/",
-   "s": "nasa.gov",
-   "d": "2026-11-02",
-   "f": "2026-11-23T06:45:00Z"
   },
   {
    "d": "2026-11-01",
@@ -422,6 +422,13 @@
    "u": "https://www.gov.uk/government/publications/artificial-intelligence-roadmap-for-space"
   },
   {
+   "t": "Launch Preview: Falcon 9 and GSLV rockets scheduled to launch",
+   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-102626/",
+   "s": "nasaspaceflight.com",
+   "d": "2026-10-26",
+   "f": "2026-11-20T06:42:50Z"
+  },
+  {
    "d": "2026-10-26",
    "f": "2026-11-02T17:45:00Z",
    "s": "nasa.gov",
@@ -441,13 +448,6 @@
    "s": "esa.int",
    "t": "Ice mission CRISTAL opens its wings",
    "u": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings"
-  },
-  {
-   "t": "Launch Preview: Falcon 9 and GSLV rockets scheduled to launch",
-   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-102626/",
-   "s": "nasaspaceflight.com",
-   "d": "2026-10-26",
-   "f": "2026-11-20T06:42:50Z"
   },
   {
    "t": "First Light Fusion selected by Dstl to deliver Hypervelocity Impact Research Programme",
