@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-24T06:31:04Z",
+ "updated": "2026-11-25T06:36:44Z",
  "items": [
+  {
+   "t": "F1 Qatar GP 2026: start time, schedule and how to watch",
+   "u": "https://www.motorsport.com/f1/news/f1-qatar-gp-2026-start-time-schedule-how-to-watch/10877085/",
+   "s": "motorsport.com",
+   "d": null,
+   "f": "2026-11-25T06:36:44Z"
+  },
   {
    "t": "“My mistake was to lift”: why Kimi Antonelli lost power in Las Vegas F1 victory battle",
    "u": "https://motorsport.com/f1/news/my-mistake-was-to-lift-why-kimi-antonelli-lost-power-in-las-vegas-f1-victory-battle/10876764",
@@ -553,17 +560,9 @@
    "s": "motorsport.com",
    "d": null,
    "f": "2026-11-04T06:42:51Z"
-  },
-  {
-   "t": "How Mercedes can win the 2026 F1 constructors' championship at the Brazilian GP",
-   "u": "https://www.motorsport.com/f1/news/how-mercedes-can-win-the-2026-f1-constructors-championship-at-the-brazilian-gp/10871090/",
-   "s": "motorsport.com",
-   "d": null,
-   "f": "2026-11-03T07:11:00Z"
   }
  ],
  "failed": [
-  "bbc.co.uk",
-  "motorsport.com (F1 page)"
+  "bbc.co.uk"
  ]
 }
