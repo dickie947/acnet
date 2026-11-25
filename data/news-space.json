@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T06:42:44Z",
+ "updated": "2026-11-25T06:42:34Z",
  "items": [
+  {
+   "t": "NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
+   "u": "https://nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft",
+   "s": "nasa.gov",
+   "d": "2026-11-23",
+   "f": "2026-11-25T06:42:34Z"
+  },
+  {
+   "t": "NASA's ESCAPADE Captures Parting Images of Earth on Its Way to Mars",
+   "u": "https://science.nasa.gov/blogs/escapade/2026/11/23/nasas-escapade-captures-parting-images-of-earth-on-its-way-to-mars",
+   "s": "nasa.gov",
+   "d": "2026-11-23",
+   "f": "2026-11-25T06:42:34Z"
+  },
   {
    "t": "Watch live on Nov. 23: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure",
    "u": "https://space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch",
@@ -14,6 +28,13 @@
    "s": "nasa.gov",
    "d": "2026-11-20",
    "f": "2026-11-23T06:45:00Z"
+  },
+  {
+   "t": "Two massive stars may be secretly feeding the Milky Way's supermassive black hole",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-19",
+   "f": "2026-11-25T06:42:34Z"
   },
   {
    "t": "Science and Suits Fill Schedule as Crew Preps for Cargo Missions",
@@ -44,6 +65,13 @@
    "f": "2026-11-19T06:42:32Z"
   },
   {
+   "t": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-16",
+   "f": "2026-11-25T06:42:34Z"
+  },
+  {
    "t": "Biotechnology, Spacesuit Work, and Dragon Packing Start Week Aboard Station",
    "u": "https://www.nasa.gov/blogs/spacestation/2026/11/16/biotechnology-spacesuit-work-and-dragon-packing-start-week-aboard-station/",
    "s": "nasa.gov",
@@ -70,6 +98,13 @@
    "s": "space.com",
    "d": "2026-11-16",
    "f": "2026-11-19T06:42:32Z"
+  },
+  {
+   "t": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-14",
+   "f": "2026-11-25T06:42:34Z"
   },
   {
    "t": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
@@ -126,6 +161,20 @@
    "s": "adsadvance.co.uk",
    "d": "2026-11-05",
    "f": "2026-11-07T12:38:33Z"
+  },
+  {
+   "t": "Rubin Observatory discovers two hidden companions of the Milky Way. Hundreds more may be waiting",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261104012252.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-04",
+   "f": "2026-11-25T06:42:34Z"
+  },
+  {
+   "t": "A dead star's mysterious rings reveal what could happen when our Sun dies",
+   "u": "https://sciencedaily.com/releases/2026/11/261104012250.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-04",
+   "f": "2026-11-25T06:42:34Z"
   },
   {
    "t": "Astronauts are Go for Final Power Upgrade Spacewalk",
@@ -511,58 +560,14 @@
    "s": "ukspace.org",
    "d": "2026-10-15",
    "f": "2026-11-07T12:38:33Z"
-  },
-  {
-   "d": "2026-10-15",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "gov.uk",
-   "t": "World-first mission puts UK expertise to work to help clean up space",
-   "u": "https://www.gov.uk/government/news/world-first-mission-puts-uk-expertise-to-work-to-help-clean-up-space"
-  },
-  {
-   "d": "2026-10-15",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "gov.uk",
-   "t": "Name the UK Space Agency's First National Mission!",
-   "u": "https://space.blog.gov.uk/2026/10/15/name-the-uk-space-agencys-first-national-mission-%f0%9f%9b%b0%ef%b8%8f%f0%9f%8c%8d/"
-  },
-  {
-   "t": "Launch Preview: Falcon 9, ZhuQue-2E to launch during quiet week",
-   "u": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/",
-   "s": "nasaspaceflight.com",
-   "d": "2026-10-13",
-   "f": "2026-11-08T06:37:33Z"
-  },
-  {
-   "d": "2026-10-13",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "gov.uk",
-   "t": "International Bilateral Fund - Call 3",
-   "u": "https://www.gov.uk/government/publications/international-bilateral-fund-call-3"
-  },
-  {
-   "d": "2026-10-13",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "MMX from launch to Phobos",
-   "u": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
-  },
-  {
-   "d": "2026-10-12",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "ExoMars rover twin rehearses first drive",
-   "u": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive"
   }
  ],
  "failed": [
-  "nasa.gov",
-  "sciencedaily.com",
   "esa.int",
-  "space.com feed",
   "spacenews.com",
   "gov.uk UK Space Agency",
   "ukspace.org",
-  "adsadvance.co.uk"
+  "adsadvance.co.uk",
+  "nasa.gov ISS news"
  ]
 }
