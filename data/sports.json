@@ -145,21 +145,21 @@
  },
  "lfc": {
   "last": [
-   "CRYSTAL PALACE",
-   "08 Nov 2026",
-   "Selhurst Park \u00b7 AWAY"
+   "MANCHESTER UNITED",
+   "22 Nov 2026",
+   "Anfield \u00b7 HOME"
   ],
   "lastLabel": "LAST MATCH",
   "next": [
-   "MANCHESTER UNITED",
-   "22 Nov 2026 16:30",
-   "Anfield \u00b7 HOME"
+   "EVERTON",
+   "28 Nov 2026 15:00",
+   "Hill Dickinson Stadium \u00b7 AWAY"
   ],
   "nextLabel": "NEXT MATCH",
   "podium": null,
   "podiumLabel": null,
-  "score": "FT  CRY 1 - 3 LFC",
-  "source": "FOX SPORTS / LIVERPOOLFC.COM",
+  "score": "FT  LFC 4 - 0 MUN",
+  "source": "FOX SPORTS / LIVERPOOLFC.COM / SKY SPORTS",
   "table": [
    [
     "ARSENAL",
@@ -168,7 +168,7 @@
    ],
    [
     "BRIGHTON & HOVE ALBION",
-    "10",
+    "11",
     "22"
    ],
    [
@@ -177,15 +177,20 @@
     "22"
    ],
    [
+    "LIVERPOOL",
+    "11",
+    "21",
+    "hl"
+   ],
+   [
     "AFC BOURNEMOUTH",
     "11",
     "18"
    ],
    [
-    "LIVERPOOL",
-    "10",
-    "18",
-    "hl"
+    "BRENTFORD",
+    "11",
+    "17"
    ],
    [
     "LEEDS UNITED",
@@ -193,12 +198,12 @@
     "17"
    ],
    [
-    "EVERTON",
-    "10",
+    "CHELSEA",
+    "11",
     "16"
    ],
    [
-    "CHELSEA",
+    "EVERTON",
     "11",
     "16"
    ],
@@ -208,8 +213,8 @@
     "15"
    ],
    [
-    "BRENTFORD",
-    "10",
+    "HULL CITY",
+    "11",
     "14"
    ],
    [
@@ -226,11 +231,6 @@
     "COVENTRY CITY",
     "11",
     "12"
-   ],
-   [
-    "HULL CITY",
-    "10",
-    "11"
    ],
    [
     "FULHAM",
@@ -254,7 +254,7 @@
    ],
    [
     "MANCHESTER UNITED",
-    "10",
+    "11",
     "8"
    ],
    [
@@ -264,6 +264,6 @@
    ]
   ],
   "tableLabel": "PREMIER LEAGUE  (PLD / PTS)",
-  "updated": "2026-11-22T06:50:00Z"
+  "updated": "2026-11-25T06:55:00Z"
  }
 }
