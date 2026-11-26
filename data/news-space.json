@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-25T06:42:34Z",
+ "updated": "2026-11-26T06:42:48Z",
  "items": [
+  {
+   "t": "Double asteroid solar eclipse caught on camera",
+   "u": "https://space.com/astronomy/asteroids/double-asteroid-solar-eclipse-caught-on-camera-space-photo-of-the-day-for-nov-24-2026",
+   "s": "space.com",
+   "d": "2026-11-24",
+   "f": "2026-11-26T06:42:48Z"
+  },
   {
    "t": "NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
    "u": "https://nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft",
@@ -553,21 +560,17 @@
    "s": "esa.int",
    "t": "Moon Explore sprinter missions",
    "u": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Moon_Explore_sprinter_missions"
-  },
-  {
-   "t": "Olsen accelerates engineering growth with northwest expansion",
-   "u": "https://www.ukspace.org/olsen-accelerates-engineering-growth-with-northwest-expansion/",
-   "s": "ukspace.org",
-   "d": "2026-10-15",
-   "f": "2026-11-07T12:38:33Z"
   }
  ],
  "failed": [
+  "nasa.gov",
+  "sciencedaily.com",
   "esa.int",
+  "nasa.gov ISS news",
+  "space.com feed",
   "spacenews.com",
   "gov.uk UK Space Agency",
   "ukspace.org",
-  "adsadvance.co.uk",
-  "nasa.gov ISS news"
+  "adsadvance.co.uk"
  ]
 }
