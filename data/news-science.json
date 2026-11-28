@@ -13,6 +13,27 @@
  ],
  "items": [
   {
+   "t": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-20",
+   "f": "2026-11-28T06:43:12Z"
+  },
+  {
+   "t": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-16",
+   "f": "2026-11-28T06:43:12Z"
+  },
+  {
+   "t": "NASA is offering $1 million for bold ideas to help build a Moon base",
+   "u": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+   "s": "sciencedaily.com",
+   "d": "2026-11-15",
+   "f": "2026-11-28T06:43:12Z"
+  },
+  {
    "d": "2026-11-08",
    "f": "2026-11-14T06:42:54Z",
    "s": "sciencedaily.com",
@@ -354,105 +375,7 @@
    "s": "nature.com",
    "t": "Face-to-face videolaryngoscopy for tracheal intubation in microgravity",
    "u": "https://www.nature.com/articles/s41526-026-00662-5"
-  },
-  {
-   "d": "2026-10-13",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "sciencedaily.com",
-   "t": "AI Can Act Exactly Like a Human, but We Still Don't Think It's Conscious",
-   "u": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm"
-  },
-  {
-   "d": "2026-10-13",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "sciencedaily.com",
-   "t": "Physicists Discover \"Astonishing\" Property of Light That Defies Expectations",
-   "u": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm"
-  },
-  {
-   "d": "2026-10-13",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "sciencedaily.com",
-   "t": "Scientists Recreate a Bizarre Quantum Effect That Stops a Particle Cold",
-   "u": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm"
-  },
-  {
-   "d": "2026-10-12",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "aria.org.uk",
-   "t": "Precision Mitochondria",
-   "u": "https://aria.org.uk/opportunity-spaces/programmable-physiology/precision-mitochondria/funding"
-  },
-  {
-   "d": "2026-10-09",
-   "f": "2026-11-02T18:40:00Z",
-   "s": "nature.com",
-   "t": "Orbiting towards myopathy: new paradigms of muscle atrophy in spaceflight",
-   "u": "https://www.nature.com/articles/s41526-026-00664-3"
-  },
-  {
-   "d": "2026-10-09",
-   "f": "2026-11-03T09:48:42Z",
-   "s": "turing.ac.uk",
-   "t": "New AI model will boost UK's ability to safeguard vital satellites",
-   "u": "https://www.turing.ac.uk/news/new-ai-model-will-boost-uks-ability-safeguard-vital-satellites"
-  },
-  {
-   "d": "2026-10-08",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "aria.org.uk",
-   "t": "Universal Fabricators",
-   "u": "https://aria.org.uk/opportunity-spaces/abundant-manufacturing/universal-fabricators/funded-projects"
-  },
-  {
-   "d": "2026-10-07",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Themis completes second fuelling rehearsal",
-   "u": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Themis_completes_second_fuelling_rehearsal"
-  },
-  {
-   "d": "2026-10-07",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Braking news! Time for ESA's Hera asteroid mission to go slow",
-   "u": "https://www.esa.int/Space_Safety/Hera/Braking_news!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow"
-  },
-  {
-   "d": "2026-10-07",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "Finding Hera's way: Flight Dynamics team in action",
-   "u": "https://www.esa.int/Space_Safety/Hera/Finding_Hera_s_way_Flight_Dynamics_team_in_action"
-  },
-  {
-   "d": "2026-10-06",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "How to record rocket emissions",
-   "u": "https://www.esa.int/Enabling_Support/Space_Transportation/How_to_record_rocket_emissions"
-  },
-  {
-   "d": "2026-10-05",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "One beam, many possibilities: the ScyLight programme patch",
-   "u": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/One_beam_many_possibilities_the_ScyLight_programme_patch"
-  },
-  {
-   "d": "2026-10-04",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "sciencedaily.com",
-   "t": "Scientists Just Found a New Way to Make Hydrogen from Water",
-   "u": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm"
-  },
-  {
-   "d": "2026-10-02",
-   "f": "2026-11-02T17:45:00Z",
-   "s": "esa.int",
-   "t": "GOMX-5 successfully launched",
-   "u": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/GOMX-5_successfully_launched"
   }
  ],
- "updated": "2026-11-14T06:42:54Z"
+ "updated": "2026-11-28T06:43:12Z"
 }
